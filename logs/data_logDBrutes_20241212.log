@@ -1,0 +1,300 @@
+2024-12-12 21:24:38,327 - ERROR - Erreur lors du chargement des fichiers CSV : [PATH_NOT_FOUND] Path does not exist: file:/C:/Users/yasmi/OneDrive/Bureau/spark/data/row/transactions.csv.
+2024-12-12 21:24:38,328 - INFO - Rapport d'audit généré et sauvegardé sous : rapports/audit_reportDBrutes_20241212.txt
+2024-12-12 21:24:41,345 - INFO - 2024-12-12 21:24:41.345393 - Rapport d'audit mis à jour pour la section Chargement des données - Détails : Toutes les tables silver ont été chargées avec succès.
+2024-12-12 21:24:41,440 - INFO - 2024-12-12 21:24:41.440374 - Colonne 'update_date' ajoutée avec la valeur par défaut (current_date).
+2024-12-12 21:24:41,565 - INFO - 2024-12-12 21:24:41.565331 - Dimension SCD2 créée avec succès.
+2024-12-12 21:24:41,583 - INFO - 2024-12-12 21:24:41.583327 - Colonne 'update_date' ajoutée avec la valeur par défaut (current_date).
+2024-12-12 21:24:41,668 - INFO - 2024-12-12 21:24:41.668606 - Dimension SCD2 créée avec succès.
+2024-12-12 21:24:41,768 - INFO - 2024-12-12 21:24:41.768180 - Transactions enrichies avec les IDs manquants.
+2024-12-12 21:24:45,413 - ERROR - Inconsistency in ID_Taxe: 1 keys are missing in the dimension table.
+2024-12-12 21:24:45,413 - INFO - 2024-12-12 21:24:45.413087 - Rapport d'audit mis à jour pour la section Transformation des données - Détails : Dimensions créées avec succès.
+2024-12-12 21:24:45,413 - INFO - 2024-12-12 21:24:45.413087 - Enregistrement des données au chemin : output/gold/20241212/transactions, format : parquet
+2024-12-12 21:24:46,087 - INFO - 2024-12-12 21:24:46.087192 - Les données ont été enregistrées avec succès dans : output/gold/20241212/transactions
+2024-12-12 21:24:46,088 - INFO - 2024-12-12 21:24:46.087192 - Enregistrement des données au chemin : output/gold/20241212/clients, format : parquet
+2024-12-12 21:24:46,325 - INFO - 2024-12-12 21:24:46.325566 - Les données ont été enregistrées avec succès dans : output/gold/20241212/clients
+2024-12-12 21:24:46,326 - INFO - 2024-12-12 21:24:46.326565 - Enregistrement des données au chemin : output/gold/20241212/produits, format : parquet
+2024-12-12 21:24:46,460 - INFO - 2024-12-12 21:24:46.460650 - Les données ont été enregistrées avec succès dans : output/gold/20241212/produits
+2024-12-12 21:24:46,460 - INFO - 2024-12-12 21:24:46.460650 - Enregistrement des données au chemin : output/gold/20241212/magasins, format : parquet
+2024-12-12 21:24:46,569 - INFO - 2024-12-12 21:24:46.568156 - Les données ont été enregistrées avec succès dans : output/gold/20241212/magasins
+2024-12-12 21:24:46,569 - INFO - 2024-12-12 21:24:46.569153 - Enregistrement des données au chemin : output/gold/20241212/categories, format : parquet
+2024-12-12 21:24:46,662 - INFO - 2024-12-12 21:24:46.662697 - Les données ont été enregistrées avec succès dans : output/gold/20241212/categories
+2024-12-12 21:24:46,663 - INFO - 2024-12-12 21:24:46.663698 - Enregistrement des données au chemin : output/gold/20241212/taxes, format : parquet
+2024-12-12 21:24:46,745 - INFO - 2024-12-12 21:24:46.745305 - Les données ont été enregistrées avec succès dans : output/gold/20241212/taxes
+2024-12-12 21:24:46,746 - INFO - 2024-12-12 21:24:46.746304 - Enregistrement des données au chemin : output/gold/20241212/Currency, format : parquet
+2024-12-12 21:24:46,982 - INFO - 2024-12-12 21:24:46.982289 - Les données ont été enregistrées avec succès dans : output/gold/20241212/Currency
+2024-12-12 21:24:46,983 - INFO - 2024-12-12 21:24:46.983289 - Rapport d'audit mis à jour pour la section Enregistrement - Détails : Données sauvegardées avec succès dans les fichiers gold.
+2024-12-12 21:24:46,983 - INFO - 2024-12-12 21:24:46.983737 - Rapport d'audit mis à jour pour la section Base de données - Détails : Données sauvegardées avec succès dans la base de données.
+2024-12-12 21:24:46,984 - INFO - 2024-12-12 21:24:46.984235 - Chargement terminé avec succès.
+2024-12-12 21:24:46,985 - INFO - 2024-12-12 21:24:46.984771 - Rapport d'audit sauvegardé avec succès. - Détails : Fichier : rapports/audit_load_report.txt
+2024-12-12 21:24:47,560 - INFO - Closing down clientserver connection
+2024-12-12 21:28:59,765 - INFO - Tous les fichiers CSV ont été chargés avec succès.
+2024-12-12 21:29:00,707 - INFO - Fichier transactions sauvegardé dans la couche Bronze.
+2024-12-12 21:29:01,457 - WARNING - 73 valeurs nulles détectées dans transactions - colonne 'ShippedDate'
+2024-12-12 21:29:01,458 - WARNING - 3 valeurs nulles détectées dans transactions - colonne 'ShipAddress'
+2024-12-12 21:29:01,458 - WARNING - 1299 valeurs nulles détectées dans transactions - colonne 'ShipRegion'
+2024-12-12 21:29:01,458 - WARNING - 55 valeurs nulles détectées dans transactions - colonne 'ShipPostalCode'
+2024-12-12 21:29:01,458 - WARNING - 3 valeurs nulles détectées dans transactions - colonne 'ShipCountry'
+2024-12-12 21:29:02,200 - WARNING - Incohérence de type dans transactions - colonne 'ProductID': attendu int, trouvé string
+2024-12-12 21:29:02,200 - WARNING - Incohérence de type dans transactions - colonne 'UnitPrice': attendu float, trouvé string
+2024-12-12 21:29:02,396 - WARNING - 2 valeurs aberrantes détectées dans transactions - colonne 'UnitPrice'
+2024-12-12 21:29:02,558 - INFO - Fichier clients sauvegardé dans la couche Bronze.
+2024-12-12 21:29:02,784 - WARNING - 1 valeurs nulles détectées dans clients - colonne 'CompanyName'
+2024-12-12 21:29:02,784 - WARNING - 2 valeurs nulles détectées dans clients - colonne 'City'
+2024-12-12 21:29:02,784 - WARNING - 60 valeurs nulles détectées dans clients - colonne 'Region'
+2024-12-12 21:29:02,785 - WARNING - 1 valeurs nulles détectées dans clients - colonne 'PostalCode'
+2024-12-12 21:29:02,785 - WARNING - 22 valeurs nulles détectées dans clients - colonne 'Fax'
+2024-12-12 21:29:03,321 - INFO - Fichier magasins sauvegardé dans la couche Bronze.
+2024-12-12 21:29:03,509 - WARNING - 1 valeurs nulles détectées dans magasins - colonne 'CompanyName'
+2024-12-12 21:29:03,510 - WARNING - 20 valeurs nulles détectées dans magasins - colonne 'Region'
+2024-12-12 21:29:03,510 - WARNING - 16 valeurs nulles détectées dans magasins - colonne 'Fax'
+2024-12-12 21:29:03,510 - WARNING - 24 valeurs nulles détectées dans magasins - colonne 'HomePage'
+2024-12-12 21:29:04,056 - INFO - Fichier produits sauvegardé dans la couche Bronze.
+2024-12-12 21:29:04,258 - WARNING - 2 valeurs nulles détectées dans produits - colonne 'ProductName'
+2024-12-12 21:29:04,595 - WARNING - Incohérence de type dans produits - colonne 'ProductID': attendu int, trouvé string
+2024-12-12 21:29:04,595 - WARNING - Incohérence de type dans produits - colonne 'UnitPrice': attendu float, trouvé string
+2024-12-12 21:29:04,702 - WARNING - 1 valeurs aberrantes détectées dans produits - colonne 'UnitPrice'
+2024-12-12 21:29:04,845 - INFO - Fichier categories sauvegardé dans la couche Bronze.
+2024-12-12 21:29:05,032 - WARNING - 1 valeurs nulles détectées dans categories - colonne 'CategoryName'
+2024-12-12 21:29:05,032 - WARNING - 1 valeurs nulles détectées dans categories - colonne 'Description'
+2024-12-12 21:29:05,294 - INFO - Rapport d'audit généré et sauvegardé sous : rapports/audit_reportDBrutes_20241212.txt
+2024-12-12 21:29:05,410 - INFO - Closing down clientserver connection
+2024-12-12 21:36:21,248 - INFO - Tous les fichiers CSV ont été chargés avec succès.
+2024-12-12 21:36:22,217 - INFO - Fichier transactions sauvegardé dans la couche Bronze.
+2024-12-12 21:36:22,972 - WARNING - 73 valeurs nulles détectées dans transactions - colonne 'ShippedDate'
+2024-12-12 21:36:22,973 - WARNING - 3 valeurs nulles détectées dans transactions - colonne 'ShipAddress'
+2024-12-12 21:36:22,973 - WARNING - 1299 valeurs nulles détectées dans transactions - colonne 'ShipRegion'
+2024-12-12 21:36:22,973 - WARNING - 55 valeurs nulles détectées dans transactions - colonne 'ShipPostalCode'
+2024-12-12 21:36:22,974 - WARNING - 3 valeurs nulles détectées dans transactions - colonne 'ShipCountry'
+2024-12-12 21:36:23,712 - WARNING - Incohérence de type dans transactions - colonne 'ProductID': attendu int, trouvé string
+2024-12-12 21:36:23,712 - WARNING - Incohérence de type dans transactions - colonne 'UnitPrice': attendu float, trouvé string
+2024-12-12 21:36:23,905 - WARNING - 2 valeurs aberrantes détectées dans transactions - colonne 'UnitPrice'
+2024-12-12 21:36:24,025 - INFO - Fichier clients sauvegardé dans la couche Bronze.
+2024-12-12 21:36:24,242 - WARNING - 1 valeurs nulles détectées dans clients - colonne 'CompanyName'
+2024-12-12 21:36:24,242 - WARNING - 2 valeurs nulles détectées dans clients - colonne 'City'
+2024-12-12 21:36:24,243 - WARNING - 60 valeurs nulles détectées dans clients - colonne 'Region'
+2024-12-12 21:36:24,243 - WARNING - 1 valeurs nulles détectées dans clients - colonne 'PostalCode'
+2024-12-12 21:36:24,243 - WARNING - 22 valeurs nulles détectées dans clients - colonne 'Fax'
+2024-12-12 21:36:24,705 - INFO - Fichier magasins sauvegardé dans la couche Bronze.
+2024-12-12 21:36:24,885 - WARNING - 1 valeurs nulles détectées dans magasins - colonne 'CompanyName'
+2024-12-12 21:36:24,885 - WARNING - 20 valeurs nulles détectées dans magasins - colonne 'Region'
+2024-12-12 21:36:24,886 - WARNING - 16 valeurs nulles détectées dans magasins - colonne 'Fax'
+2024-12-12 21:36:24,886 - WARNING - 24 valeurs nulles détectées dans magasins - colonne 'HomePage'
+2024-12-12 21:36:25,292 - INFO - Fichier produits sauvegardé dans la couche Bronze.
+2024-12-12 21:36:25,520 - WARNING - 2 valeurs nulles détectées dans produits - colonne 'ProductName'
+2024-12-12 21:36:25,808 - WARNING - Incohérence de type dans produits - colonne 'ProductID': attendu int, trouvé string
+2024-12-12 21:36:25,808 - WARNING - Incohérence de type dans produits - colonne 'UnitPrice': attendu float, trouvé string
+2024-12-12 21:36:25,907 - WARNING - 1 valeurs aberrantes détectées dans produits - colonne 'UnitPrice'
+2024-12-12 21:36:26,004 - INFO - Fichier categories sauvegardé dans la couche Bronze.
+2024-12-12 21:36:26,170 - WARNING - 1 valeurs nulles détectées dans categories - colonne 'CategoryName'
+2024-12-12 21:36:26,171 - WARNING - 1 valeurs nulles détectées dans categories - colonne 'Description'
+2024-12-12 21:36:26,437 - INFO - Rapport d'audit généré et sauvegardé sous : rapports/audit_reportDBrutes_20241212.txt
+2024-12-12 21:36:27,356 - INFO - 2024-12-12 21:36:27.356030 - Rapport d'audit mis à jour pour la section Chargement des données - Détails : Toutes les tables silver ont été chargées avec succès.
+2024-12-12 21:36:27,368 - INFO - 2024-12-12 21:36:27.368021 - Colonne 'update_date' ajoutée avec la valeur par défaut (current_date).
+2024-12-12 21:36:27,437 - INFO - 2024-12-12 21:36:27.437206 - Dimension SCD2 créée avec succès.
+2024-12-12 21:36:27,449 - INFO - 2024-12-12 21:36:27.449169 - Colonne 'update_date' ajoutée avec la valeur par défaut (current_date).
+2024-12-12 21:36:27,510 - INFO - 2024-12-12 21:36:27.510696 - Dimension SCD2 créée avec succès.
+2024-12-12 21:36:27,586 - INFO - 2024-12-12 21:36:27.586417 - Transactions enrichies avec les IDs manquants.
+2024-12-12 21:36:29,457 - ERROR - Inconsistency in ID_Taxe: 1 keys are missing in the dimension table.
+2024-12-12 21:36:29,457 - INFO - 2024-12-12 21:36:29.457324 - Rapport d'audit mis à jour pour la section Transformation des données - Détails : Dimensions créées avec succès.
+2024-12-12 21:36:29,458 - INFO - 2024-12-12 21:36:29.458324 - Enregistrement des données au chemin : output/gold/20241212/transactions, format : parquet
+2024-12-12 21:36:29,728 - INFO - 2024-12-12 21:36:29.728006 - Les données ont été enregistrées avec succès dans : output/gold/20241212/transactions
+2024-12-12 21:36:29,728 - INFO - 2024-12-12 21:36:29.728006 - Enregistrement des données au chemin : output/gold/20241212/clients, format : parquet
+2024-12-12 21:36:30,131 - INFO - 2024-12-12 21:36:30.131186 - Les données ont été enregistrées avec succès dans : output/gold/20241212/clients
+2024-12-12 21:36:30,131 - INFO - 2024-12-12 21:36:30.131186 - Enregistrement des données au chemin : output/gold/20241212/produits, format : parquet
+2024-12-12 21:36:30,267 - INFO - 2024-12-12 21:36:30.267701 - Les données ont été enregistrées avec succès dans : output/gold/20241212/produits
+2024-12-12 21:36:30,267 - INFO - 2024-12-12 21:36:30.267701 - Enregistrement des données au chemin : output/gold/20241212/magasins, format : parquet
+2024-12-12 21:36:30,372 - INFO - 2024-12-12 21:36:30.372832 - Les données ont été enregistrées avec succès dans : output/gold/20241212/magasins
+2024-12-12 21:36:30,373 - INFO - 2024-12-12 21:36:30.373833 - Enregistrement des données au chemin : output/gold/20241212/categories, format : parquet
+2024-12-12 21:36:30,473 - INFO - 2024-12-12 21:36:30.473684 - Les données ont été enregistrées avec succès dans : output/gold/20241212/categories
+2024-12-12 21:36:30,474 - INFO - 2024-12-12 21:36:30.474816 - Enregistrement des données au chemin : output/gold/20241212/taxes, format : parquet
+2024-12-12 21:36:30,559 - INFO - 2024-12-12 21:36:30.559987 - Les données ont été enregistrées avec succès dans : output/gold/20241212/taxes
+2024-12-12 21:36:30,559 - INFO - 2024-12-12 21:36:30.559987 - Enregistrement des données au chemin : output/gold/20241212/Currency, format : parquet
+2024-12-12 21:36:30,755 - INFO - 2024-12-12 21:36:30.755693 - Les données ont été enregistrées avec succès dans : output/gold/20241212/Currency
+2024-12-12 21:36:30,755 - INFO - 2024-12-12 21:36:30.755693 - Rapport d'audit mis à jour pour la section Enregistrement - Détails : Données sauvegardées avec succès dans les fichiers gold.
+2024-12-12 21:36:30,757 - INFO - 2024-12-12 21:36:30.757689 - Enregistrement des données dans la table : Fact_Transaction
+2024-12-12 21:36:31,791 - INFO - 2024-12-12 21:36:31.790752 - Données enregistrées dans la table : Fact_Transaction
+2024-12-12 21:36:31,792 - INFO - 2024-12-12 21:36:31.792751 - Enregistrement des données dans la table : Dim_Magasin
+2024-12-12 21:36:31,937 - INFO - 2024-12-12 21:36:31.937068 - Données enregistrées dans la table : Dim_Magasin
+2024-12-12 21:36:31,938 - INFO - 2024-12-12 21:36:31.938070 - Enregistrement des données dans la table : Dim_Categorie
+2024-12-12 21:36:32,059 - INFO - 2024-12-12 21:36:32.059036 - Données enregistrées dans la table : Dim_Categorie
+2024-12-12 21:36:32,060 - INFO - 2024-12-12 21:36:32.060036 - Enregistrement des données dans la table : Dim_Taxe
+2024-12-12 21:36:32,184 - INFO - 2024-12-12 21:36:32.184272 - Données enregistrées dans la table : Dim_Taxe
+2024-12-12 21:36:32,185 - INFO - 2024-12-12 21:36:32.185518 - Enregistrement des données dans la table : Dim_Currency
+2024-12-12 21:36:32,892 - INFO - 2024-12-12 21:36:32.892300 - Données enregistrées dans la table : Dim_Currency
+2024-12-12 21:36:32,893 - INFO - 2024-12-12 21:36:32.893298 - Enregistrement des données dans la table : Dim_Client
+2024-12-12 21:36:33,065 - INFO - 2024-12-12 21:36:33.065023 - Données enregistrées dans la table : Dim_Client
+2024-12-12 21:36:33,076 - INFO - 2024-12-12 21:36:33.076022 - Enregistrement des données dans la table : Dim_Produit
+2024-12-12 21:36:33,251 - INFO - 2024-12-12 21:36:33.251268 - Données enregistrées dans la table : Dim_Produit
+2024-12-12 21:36:33,252 - INFO - 2024-12-12 21:36:33.252277 - Rapport d'audit mis à jour pour la section Base de données - Détails : Données sauvegardées avec succès dans la base de données.
+2024-12-12 21:36:33,252 - INFO - 2024-12-12 21:36:33.252277 - Chargement terminé avec succès.
+2024-12-12 21:36:33,253 - INFO - 2024-12-12 21:36:33.253277 - Rapport d'audit sauvegardé avec succès. - Détails : Fichier : rapports/audit_load_report.txt
+2024-12-12 21:36:33,473 - INFO - Closing down clientserver connection
+2024-12-12 21:55:20,142 - INFO - Tous les fichiers CSV ont été chargés avec succès.
+2024-12-12 21:55:21,118 - INFO - Fichier transactions sauvegardé dans la couche Bronze.
+2024-12-12 21:55:21,881 - WARNING - 73 valeurs nulles détectées dans transactions - colonne 'ShippedDate'
+2024-12-12 21:55:21,882 - WARNING - 3 valeurs nulles détectées dans transactions - colonne 'ShipAddress'
+2024-12-12 21:55:21,882 - WARNING - 1299 valeurs nulles détectées dans transactions - colonne 'ShipRegion'
+2024-12-12 21:55:21,882 - WARNING - 55 valeurs nulles détectées dans transactions - colonne 'ShipPostalCode'
+2024-12-12 21:55:21,882 - WARNING - 3 valeurs nulles détectées dans transactions - colonne 'ShipCountry'
+2024-12-12 21:55:22,641 - WARNING - Incohérence de type dans transactions - colonne 'ProductID': attendu int, trouvé string
+2024-12-12 21:55:22,642 - WARNING - Incohérence de type dans transactions - colonne 'UnitPrice': attendu float, trouvé string
+2024-12-12 21:55:22,825 - WARNING - 2 valeurs aberrantes détectées dans transactions - colonne 'UnitPrice'
+2024-12-12 21:55:22,944 - INFO - Fichier clients sauvegardé dans la couche Bronze.
+2024-12-12 21:55:23,171 - WARNING - 1 valeurs nulles détectées dans clients - colonne 'CompanyName'
+2024-12-12 21:55:23,171 - WARNING - 2 valeurs nulles détectées dans clients - colonne 'City'
+2024-12-12 21:55:23,172 - WARNING - 60 valeurs nulles détectées dans clients - colonne 'Region'
+2024-12-12 21:55:23,172 - WARNING - 1 valeurs nulles détectées dans clients - colonne 'PostalCode'
+2024-12-12 21:55:23,172 - WARNING - 22 valeurs nulles détectées dans clients - colonne 'Fax'
+2024-12-12 21:55:23,684 - INFO - Fichier magasins sauvegardé dans la couche Bronze.
+2024-12-12 21:55:23,945 - WARNING - 1 valeurs nulles détectées dans magasins - colonne 'CompanyName'
+2024-12-12 21:55:23,945 - WARNING - 20 valeurs nulles détectées dans magasins - colonne 'Region'
+2024-12-12 21:55:23,945 - WARNING - 16 valeurs nulles détectées dans magasins - colonne 'Fax'
+2024-12-12 21:55:23,946 - WARNING - 24 valeurs nulles détectées dans magasins - colonne 'HomePage'
+2024-12-12 21:55:24,537 - INFO - Fichier produits sauvegardé dans la couche Bronze.
+2024-12-12 21:55:24,762 - WARNING - 2 valeurs nulles détectées dans produits - colonne 'ProductName'
+2024-12-12 21:55:25,074 - WARNING - Incohérence de type dans produits - colonne 'ProductID': attendu int, trouvé string
+2024-12-12 21:55:25,075 - WARNING - Incohérence de type dans produits - colonne 'UnitPrice': attendu float, trouvé string
+2024-12-12 21:55:25,184 - WARNING - 1 valeurs aberrantes détectées dans produits - colonne 'UnitPrice'
+2024-12-12 21:55:25,317 - INFO - Fichier categories sauvegardé dans la couche Bronze.
+2024-12-12 21:55:25,490 - WARNING - 1 valeurs nulles détectées dans categories - colonne 'CategoryName'
+2024-12-12 21:55:25,490 - WARNING - 1 valeurs nulles détectées dans categories - colonne 'Description'
+2024-12-12 21:55:25,786 - INFO - Rapport d'audit généré et sauvegardé sous : rapports/audit_reportDBrutes_20241212.txt
+2024-12-12 21:55:26,685 - INFO - 2024-12-12 21:55:26.685597 - Rapport d'audit mis à jour pour la section Chargement des données - Détails : Toutes les tables silver ont été chargées avec succès.
+2024-12-12 21:55:26,696 - INFO - 2024-12-12 21:55:26.695598 - Colonne 'update_date' ajoutée avec la valeur par défaut (current_date).
+2024-12-12 21:55:26,765 - INFO - 2024-12-12 21:55:26.765925 - Dimension SCD2 créée avec succès.
+2024-12-12 21:55:26,776 - INFO - 2024-12-12 21:55:26.775108 - Colonne 'update_date' ajoutée avec la valeur par défaut (current_date).
+2024-12-12 21:55:26,828 - INFO - 2024-12-12 21:55:26.828887 - Dimension SCD2 créée avec succès.
+2024-12-12 21:55:26,911 - INFO - 2024-12-12 21:55:26.910738 - Transactions enrichies avec les IDs manquants.
+2024-12-12 21:55:26,964 - INFO - Closing down clientserver connection
+2024-12-12 21:56:35,495 - INFO - Tous les fichiers CSV ont été chargés avec succès.
+2024-12-12 21:56:36,454 - INFO - Fichier transactions sauvegardé dans la couche Bronze.
+2024-12-12 21:56:37,223 - WARNING - 73 valeurs nulles détectées dans transactions - colonne 'ShippedDate'
+2024-12-12 21:56:37,223 - WARNING - 3 valeurs nulles détectées dans transactions - colonne 'ShipAddress'
+2024-12-12 21:56:37,225 - WARNING - 1299 valeurs nulles détectées dans transactions - colonne 'ShipRegion'
+2024-12-12 21:56:37,225 - WARNING - 55 valeurs nulles détectées dans transactions - colonne 'ShipPostalCode'
+2024-12-12 21:56:37,225 - WARNING - 3 valeurs nulles détectées dans transactions - colonne 'ShipCountry'
+2024-12-12 21:56:37,942 - WARNING - Incohérence de type dans transactions - colonne 'ProductID': attendu int, trouvé string
+2024-12-12 21:56:37,943 - WARNING - Incohérence de type dans transactions - colonne 'UnitPrice': attendu float, trouvé string
+2024-12-12 21:56:38,126 - WARNING - 2 valeurs aberrantes détectées dans transactions - colonne 'UnitPrice'
+2024-12-12 21:56:38,256 - INFO - Fichier clients sauvegardé dans la couche Bronze.
+2024-12-12 21:56:38,445 - WARNING - 1 valeurs nulles détectées dans clients - colonne 'CompanyName'
+2024-12-12 21:56:38,445 - WARNING - 2 valeurs nulles détectées dans clients - colonne 'City'
+2024-12-12 21:56:38,445 - WARNING - 60 valeurs nulles détectées dans clients - colonne 'Region'
+2024-12-12 21:56:38,446 - WARNING - 1 valeurs nulles détectées dans clients - colonne 'PostalCode'
+2024-12-12 21:56:38,446 - WARNING - 22 valeurs nulles détectées dans clients - colonne 'Fax'
+2024-12-12 21:56:38,918 - INFO - Fichier magasins sauvegardé dans la couche Bronze.
+2024-12-12 21:56:39,114 - WARNING - 1 valeurs nulles détectées dans magasins - colonne 'CompanyName'
+2024-12-12 21:56:39,114 - WARNING - 20 valeurs nulles détectées dans magasins - colonne 'Region'
+2024-12-12 21:56:39,114 - WARNING - 16 valeurs nulles détectées dans magasins - colonne 'Fax'
+2024-12-12 21:56:39,115 - WARNING - 24 valeurs nulles détectées dans magasins - colonne 'HomePage'
+2024-12-12 21:56:39,509 - INFO - Fichier produits sauvegardé dans la couche Bronze.
+2024-12-12 21:56:39,698 - WARNING - 2 valeurs nulles détectées dans produits - colonne 'ProductName'
+2024-12-12 21:56:39,989 - WARNING - Incohérence de type dans produits - colonne 'ProductID': attendu int, trouvé string
+2024-12-12 21:56:39,989 - WARNING - Incohérence de type dans produits - colonne 'UnitPrice': attendu float, trouvé string
+2024-12-12 21:56:40,085 - WARNING - 1 valeurs aberrantes détectées dans produits - colonne 'UnitPrice'
+2024-12-12 21:56:40,183 - INFO - Fichier categories sauvegardé dans la couche Bronze.
+2024-12-12 21:56:40,337 - WARNING - 1 valeurs nulles détectées dans categories - colonne 'CategoryName'
+2024-12-12 21:56:40,338 - WARNING - 1 valeurs nulles détectées dans categories - colonne 'Description'
+2024-12-12 21:56:40,666 - INFO - Rapport d'audit généré et sauvegardé sous : rapports/audit_reportDBrutes_20241212.txt
+2024-12-12 21:56:41,552 - INFO - 2024-12-12 21:56:41.552290 - Rapport d'audit mis à jour pour la section Chargement des données - Détails : Toutes les tables silver ont été chargées avec succès.
+2024-12-12 21:56:41,562 - INFO - 2024-12-12 21:56:41.562277 - Colonne 'update_date' ajoutée avec la valeur par défaut (current_date).
+2024-12-12 21:56:41,628 - INFO - 2024-12-12 21:56:41.628962 - Dimension SCD2 créée avec succès.
+2024-12-12 21:56:41,642 - INFO - 2024-12-12 21:56:41.642634 - Colonne 'update_date' ajoutée avec la valeur par défaut (current_date).
+2024-12-12 21:56:41,704 - INFO - 2024-12-12 21:56:41.704205 - Dimension SCD2 créée avec succès.
+2024-12-12 21:56:41,775 - INFO - 2024-12-12 21:56:41.775649 - Transactions enrichies avec les IDs manquants.
+2024-12-12 21:56:41,812 - INFO - Closing down clientserver connection
+2024-12-12 21:57:09,411 - INFO - Tous les fichiers CSV ont été chargés avec succès.
+2024-12-12 21:57:10,443 - INFO - Fichier transactions sauvegardé dans la couche Bronze.
+2024-12-12 21:57:11,298 - WARNING - 73 valeurs nulles détectées dans transactions - colonne 'ShippedDate'
+2024-12-12 21:57:11,299 - WARNING - 3 valeurs nulles détectées dans transactions - colonne 'ShipAddress'
+2024-12-12 21:57:11,299 - WARNING - 1299 valeurs nulles détectées dans transactions - colonne 'ShipRegion'
+2024-12-12 21:57:11,299 - WARNING - 55 valeurs nulles détectées dans transactions - colonne 'ShipPostalCode'
+2024-12-12 21:57:11,300 - WARNING - 3 valeurs nulles détectées dans transactions - colonne 'ShipCountry'
+2024-12-12 21:57:12,059 - WARNING - Incohérence de type dans transactions - colonne 'ProductID': attendu int, trouvé string
+2024-12-12 21:57:12,059 - WARNING - Incohérence de type dans transactions - colonne 'UnitPrice': attendu float, trouvé string
+2024-12-12 21:57:12,231 - WARNING - 2 valeurs aberrantes détectées dans transactions - colonne 'UnitPrice'
+2024-12-12 21:57:12,377 - INFO - Fichier clients sauvegardé dans la couche Bronze.
+2024-12-12 21:57:12,639 - WARNING - 1 valeurs nulles détectées dans clients - colonne 'CompanyName'
+2024-12-12 21:57:12,641 - WARNING - 2 valeurs nulles détectées dans clients - colonne 'City'
+2024-12-12 21:57:12,641 - WARNING - 60 valeurs nulles détectées dans clients - colonne 'Region'
+2024-12-12 21:57:12,642 - WARNING - 1 valeurs nulles détectées dans clients - colonne 'PostalCode'
+2024-12-12 21:57:12,643 - WARNING - 22 valeurs nulles détectées dans clients - colonne 'Fax'
+2024-12-12 21:57:13,240 - INFO - Fichier magasins sauvegardé dans la couche Bronze.
+2024-12-12 21:57:13,499 - WARNING - 1 valeurs nulles détectées dans magasins - colonne 'CompanyName'
+2024-12-12 21:57:13,499 - WARNING - 20 valeurs nulles détectées dans magasins - colonne 'Region'
+2024-12-12 21:57:13,499 - WARNING - 16 valeurs nulles détectées dans magasins - colonne 'Fax'
+2024-12-12 21:57:13,499 - WARNING - 24 valeurs nulles détectées dans magasins - colonne 'HomePage'
+2024-12-12 21:57:13,915 - INFO - Fichier produits sauvegardé dans la couche Bronze.
+2024-12-12 21:57:14,121 - WARNING - 2 valeurs nulles détectées dans produits - colonne 'ProductName'
+2024-12-12 21:57:14,455 - WARNING - Incohérence de type dans produits - colonne 'ProductID': attendu int, trouvé string
+2024-12-12 21:57:14,456 - WARNING - Incohérence de type dans produits - colonne 'UnitPrice': attendu float, trouvé string
+2024-12-12 21:57:14,579 - WARNING - 1 valeurs aberrantes détectées dans produits - colonne 'UnitPrice'
+2024-12-12 21:57:14,669 - INFO - Fichier categories sauvegardé dans la couche Bronze.
+2024-12-12 21:57:14,799 - WARNING - 1 valeurs nulles détectées dans categories - colonne 'CategoryName'
+2024-12-12 21:57:14,800 - WARNING - 1 valeurs nulles détectées dans categories - colonne 'Description'
+2024-12-12 21:57:15,060 - INFO - Rapport d'audit généré et sauvegardé sous : rapports/audit_reportDBrutes_20241212.txt
+2024-12-12 21:57:16,092 - INFO - 2024-12-12 21:57:16.092093 - Rapport d'audit mis à jour pour la section Chargement des données - Détails : Toutes les tables silver ont été chargées avec succès.
+2024-12-12 21:57:16,104 - INFO - 2024-12-12 21:57:16.104904 - Colonne 'update_date' ajoutée avec la valeur par défaut (current_date).
+2024-12-12 21:57:16,176 - INFO - 2024-12-12 21:57:16.176085 - Dimension SCD2 créée avec succès.
+2024-12-12 21:57:16,188 - INFO - 2024-12-12 21:57:16.188099 - Colonne 'update_date' ajoutée avec la valeur par défaut (current_date).
+2024-12-12 21:57:16,240 - INFO - 2024-12-12 21:57:16.240712 - Dimension SCD2 créée avec succès.
+2024-12-12 21:57:16,313 - INFO - 2024-12-12 21:57:16.313404 - Transactions enrichies avec les IDs manquants.
+2024-12-12 21:57:16,351 - INFO - Closing down clientserver connection
+2024-12-12 21:58:25,022 - INFO - Tous les fichiers CSV ont été chargés avec succès.
+2024-12-12 21:58:25,948 - INFO - Fichier transactions sauvegardé dans la couche Bronze.
+2024-12-12 21:58:26,699 - WARNING - 73 valeurs nulles détectées dans transactions - colonne 'ShippedDate'
+2024-12-12 21:58:26,699 - WARNING - 3 valeurs nulles détectées dans transactions - colonne 'ShipAddress'
+2024-12-12 21:58:26,699 - WARNING - 1299 valeurs nulles détectées dans transactions - colonne 'ShipRegion'
+2024-12-12 21:58:26,700 - WARNING - 55 valeurs nulles détectées dans transactions - colonne 'ShipPostalCode'
+2024-12-12 21:58:26,700 - WARNING - 3 valeurs nulles détectées dans transactions - colonne 'ShipCountry'
+2024-12-12 21:58:27,456 - WARNING - Incohérence de type dans transactions - colonne 'ProductID': attendu int, trouvé string
+2024-12-12 21:58:27,457 - WARNING - Incohérence de type dans transactions - colonne 'UnitPrice': attendu float, trouvé string
+2024-12-12 21:58:27,644 - WARNING - 2 valeurs aberrantes détectées dans transactions - colonne 'UnitPrice'
+2024-12-12 21:58:27,779 - INFO - Fichier clients sauvegardé dans la couche Bronze.
+2024-12-12 21:58:27,982 - WARNING - 1 valeurs nulles détectées dans clients - colonne 'CompanyName'
+2024-12-12 21:58:27,982 - WARNING - 2 valeurs nulles détectées dans clients - colonne 'City'
+2024-12-12 21:58:27,982 - WARNING - 60 valeurs nulles détectées dans clients - colonne 'Region'
+2024-12-12 21:58:27,983 - WARNING - 1 valeurs nulles détectées dans clients - colonne 'PostalCode'
+2024-12-12 21:58:27,983 - WARNING - 22 valeurs nulles détectées dans clients - colonne 'Fax'
+2024-12-12 21:58:28,486 - INFO - Fichier magasins sauvegardé dans la couche Bronze.
+2024-12-12 21:58:28,688 - WARNING - 1 valeurs nulles détectées dans magasins - colonne 'CompanyName'
+2024-12-12 21:58:28,688 - WARNING - 20 valeurs nulles détectées dans magasins - colonne 'Region'
+2024-12-12 21:58:28,688 - WARNING - 16 valeurs nulles détectées dans magasins - colonne 'Fax'
+2024-12-12 21:58:28,688 - WARNING - 24 valeurs nulles détectées dans magasins - colonne 'HomePage'
+2024-12-12 21:58:29,119 - INFO - Fichier produits sauvegardé dans la couche Bronze.
+2024-12-12 21:58:29,366 - WARNING - 2 valeurs nulles détectées dans produits - colonne 'ProductName'
+2024-12-12 21:58:29,671 - WARNING - Incohérence de type dans produits - colonne 'ProductID': attendu int, trouvé string
+2024-12-12 21:58:29,671 - WARNING - Incohérence de type dans produits - colonne 'UnitPrice': attendu float, trouvé string
+2024-12-12 21:58:29,775 - WARNING - 1 valeurs aberrantes détectées dans produits - colonne 'UnitPrice'
+2024-12-12 21:58:29,882 - INFO - Fichier categories sauvegardé dans la couche Bronze.
+2024-12-12 21:58:30,030 - WARNING - 1 valeurs nulles détectées dans categories - colonne 'CategoryName'
+2024-12-12 21:58:30,030 - WARNING - 1 valeurs nulles détectées dans categories - colonne 'Description'
+2024-12-12 21:58:30,288 - INFO - Rapport d'audit généré et sauvegardé sous : rapports/audit_reportDBrutes_20241212.txt
+2024-12-12 21:58:31,374 - INFO - 2024-12-12 21:58:31.374854 - Rapport d'audit mis à jour pour la section Chargement des données - Détails : Toutes les tables silver ont été chargées avec succès.
+2024-12-12 21:58:31,387 - INFO - 2024-12-12 21:58:31.387857 - Colonne 'update_date' ajoutée avec la valeur par défaut (current_date).
+2024-12-12 21:58:31,461 - INFO - 2024-12-12 21:58:31.461564 - Dimension SCD2 créée avec succès.
+2024-12-12 21:58:31,473 - INFO - 2024-12-12 21:58:31.473327 - Colonne 'update_date' ajoutée avec la valeur par défaut (current_date).
+2024-12-12 21:58:31,530 - INFO - 2024-12-12 21:58:31.530022 - Dimension SCD2 créée avec succès.
+2024-12-12 21:58:31,607 - INFO - 2024-12-12 21:58:31.607669 - Transactions enrichies avec les IDs manquants.
+2024-12-12 21:58:31,656 - INFO - 2024-12-12 21:58:31.656406 - Rapport d'audit mis à jour pour la section Transformation des données - Détails : Dimensions créées avec succès.
+2024-12-12 21:58:31,656 - INFO - 2024-12-12 21:58:31.656406 - Enregistrement des données au chemin : output/gold/20241212/transactions, format : parquet
+2024-12-12 21:58:32,171 - INFO - 2024-12-12 21:58:32.171297 - Les données ont été enregistrées avec succès dans : output/gold/20241212/transactions
+2024-12-12 21:58:32,172 - INFO - 2024-12-12 21:58:32.172299 - Enregistrement des données au chemin : output/gold/20241212/clients, format : parquet
+2024-12-12 21:58:32,406 - INFO - 2024-12-12 21:58:32.406144 - Les données ont été enregistrées avec succès dans : output/gold/20241212/clients
+2024-12-12 21:58:32,407 - INFO - 2024-12-12 21:58:32.407148 - Enregistrement des données au chemin : output/gold/20241212/produits, format : parquet
+2024-12-12 21:58:32,557 - INFO - 2024-12-12 21:58:32.557833 - Les données ont été enregistrées avec succès dans : output/gold/20241212/produits
+2024-12-12 21:58:32,557 - INFO - 2024-12-12 21:58:32.557833 - Enregistrement des données au chemin : output/gold/20241212/magasins, format : parquet
+2024-12-12 21:58:32,656 - INFO - 2024-12-12 21:58:32.656645 - Les données ont été enregistrées avec succès dans : output/gold/20241212/magasins
+2024-12-12 21:58:32,657 - INFO - 2024-12-12 21:58:32.657647 - Enregistrement des données au chemin : output/gold/20241212/categories, format : parquet
+2024-12-12 21:58:32,745 - INFO - 2024-12-12 21:58:32.745610 - Les données ont été enregistrées avec succès dans : output/gold/20241212/categories
+2024-12-12 21:58:32,746 - INFO - 2024-12-12 21:58:32.746616 - Enregistrement des données au chemin : output/gold/20241212/taxes, format : parquet
+2024-12-12 21:58:32,825 - INFO - 2024-12-12 21:58:32.824561 - Les données ont été enregistrées avec succès dans : output/gold/20241212/taxes
+2024-12-12 21:58:32,825 - INFO - 2024-12-12 21:58:32.825565 - Enregistrement des données au chemin : output/gold/20241212/Currency, format : parquet
+2024-12-12 21:58:33,124 - INFO - 2024-12-12 21:58:33.124462 - Les données ont été enregistrées avec succès dans : output/gold/20241212/Currency
+2024-12-12 21:58:33,125 - INFO - 2024-12-12 21:58:33.124462 - Rapport d'audit mis à jour pour la section Enregistrement - Détails : Données sauvegardées avec succès dans les fichiers gold.
+2024-12-12 21:58:33,126 - INFO - 2024-12-12 21:58:33.126637 - Enregistrement des données dans la table : Dim_Currency
+2024-12-12 21:58:34,525 - INFO - 2024-12-12 21:58:34.525259 - Données enregistrées dans la table : Dim_Currency
+2024-12-12 21:58:34,526 - INFO - 2024-12-12 21:58:34.526261 - Rapport d'audit mis à jour pour la section Base de données - Détails : Données sauvegardées avec succès dans la base de données.
+2024-12-12 21:58:34,526 - INFO - 2024-12-12 21:58:34.526261 - Chargement terminé avec succès.
+2024-12-12 21:58:34,527 - INFO - 2024-12-12 21:58:34.527259 - Rapport d'audit sauvegardé avec succès. - Détails : Fichier : rapports/audit_load_report.txt
+2024-12-12 21:58:34,864 - INFO - Closing down clientserver connection

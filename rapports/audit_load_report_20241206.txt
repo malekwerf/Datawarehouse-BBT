@@ -1,0 +1,120 @@
+2024-12-06 20:20:49,572 - ERROR - Inconsistency in RateKey: 1 keys are missing in the dimension table.
+2024-12-06 20:20:53,044 - INFO - *** Rapport des données traitées ***
+2024-12-06 20:20:53.044967 - *** Rapport des donnÃ©es traitÃ©es ***
+2024-12-06 20:20:53,045 - INFO - Total Clients: 91
+2024-12-06 20:20:53.045969 - Total Clients: 91
+2024-12-06 20:20:53,045 - INFO - Total Products: 77
+2024-12-06 20:20:53.045969 - Total Products: 77
+2024-12-06 20:20:53,046 - INFO - Total Stores: 29
+2024-12-06 20:20:53.047336 - Total Stores: 29
+2024-12-06 20:20:53,047 - INFO - Total Transactions: 2155
+2024-12-06 20:20:53.047630 - Total Transactions: 2155
+2024-12-06 20:20:53,644 - INFO - Closing down clientserver connection
+2024-12-06 20:24:46,103 - ERROR - Inconsistency in RateKey: 1 keys are missing in the dimension table.
+2024-12-06 20:24:50,402 - INFO - *** Rapport des données traitées ***
+2024-12-06 20:24:50.403516 - *** Rapport des donnÃ©es traitÃ©es ***
+2024-12-06 20:24:50,403 - INFO - Total Clients: 91
+2024-12-06 20:24:50.403516 - Total Clients: 91
+2024-12-06 20:24:50,403 - INFO - Total Products: 77
+2024-12-06 20:24:50.404517 - Total Products: 77
+2024-12-06 20:24:50,404 - INFO - Total Stores: 29
+2024-12-06 20:24:50.404855 - Total Stores: 29
+2024-12-06 20:24:50,404 - INFO - Total Transactions: 2155
+2024-12-06 20:24:50.404855 - Total Transactions: 2155
+2024-12-06 20:24:51,025 - INFO - Closing down clientserver connection
+2024-12-06 20:27:34,090 - ERROR - Inconsistency in RateKey: 1 keys are missing in the dimension table.
+2024-12-06 20:27:37,362 - INFO - *** Rapport des données traitées ***
+2024-12-06 20:27:37.362382 - *** Rapport des donnÃ©es traitÃ©es ***
+2024-12-06 20:27:37,362 - INFO - Total Clients: 91
+2024-12-06 20:27:37.363383 - Total Clients: 91
+2024-12-06 20:27:37,363 - INFO - Total Products: 77
+2024-12-06 20:27:37.363383 - Total Products: 77
+2024-12-06 20:27:37,364 - INFO - Total Stores: 29
+2024-12-06 20:27:37.364081 - Total Stores: 29
+2024-12-06 20:27:37,364 - INFO - Total Transactions: 2155
+2024-12-06 20:27:37.364440 - Total Transactions: 2155
+2024-12-06 20:27:38,950 - INFO - Processus terminé avec succès.
+2024-12-06 20:27:38.950803 - Processus terminÃ© avec succÃ¨s.
+2024-12-06 20:27:39,427 - INFO - Closing down clientserver connection
+2024-12-06 20:39:56,978 - ERROR - Inconsistency in RateKey: 1 keys are missing in the dimension table.
+2024-12-06 20:40:01,113 - INFO - *** Rapport des données traitées ***
+2024-12-06 20:40:01.113563 - *** Rapport des donnÃ©es traitÃ©es ***
+2024-12-06 20:40:01,114 - INFO - Total Clients: 91
+2024-12-06 20:40:01.114247 - Total Clients: 91
+2024-12-06 20:40:01,114 - INFO - Total Products: 77
+2024-12-06 20:40:01.114321 - Total Products: 77
+2024-12-06 20:40:01,114 - INFO - Total Stores: 29
+2024-12-06 20:40:01.114823 - Total Stores: 29
+2024-12-06 20:40:01,115 - INFO - Total Transactions: 2155
+2024-12-06 20:40:01.115323 - Total Transactions: 2155
+2024-12-06 20:40:01,731 - INFO - Closing down clientserver connection
+2024-12-06 20:42:51,506 - ERROR - Inconsistency in RateKey: 1 keys are missing in the dimension table.
+2024-12-06 20:42:54,973 - INFO - *** Rapport des données traitées ***
+2024-12-06 20:42:54.973073 - *** Rapport des donnÃ©es traitÃ©es ***
+2024-12-06 20:42:54,974 - INFO - Total Clients: 91
+2024-12-06 20:42:54.974075 - Total Clients: 91
+2024-12-06 20:42:54,974 - INFO - Total Products: 77
+2024-12-06 20:42:54.974838 - Total Products: 77
+2024-12-06 20:42:54,975 - INFO - Total Stores: 29
+2024-12-06 20:42:54.976282 - Total Stores: 29
+2024-12-06 20:42:54,976 - INFO - Total Transactions: 2155
+2024-12-06 20:42:54.976431 - Total Transactions: 2155
+2024-12-06 20:42:56,397 - INFO - Processus terminé avec succès.
+2024-12-06 20:42:56.397489 - Processus terminÃ© avec succÃ¨s.
+2024-12-06 20:42:56,730 - INFO - Closing down clientserver connection
+2024-12-06 20:45:23,121 - ERROR - Inconsistency in RateKey: 1 keys are missing in the dimension table.
+2024-12-06 20:45:26,958 - INFO - *** Rapport des données traitées ***
+2024-12-06 20:45:26.958652 - *** Rapport des donnÃ©es traitÃ©es ***
+2024-12-06 20:45:26,959 - INFO - Total Clients: 91
+2024-12-06 20:45:26.959645 - Total Clients: 91
+2024-12-06 20:45:26,960 - INFO - Total Products: 77
+2024-12-06 20:45:26.960620 - Total Products: 77
+2024-12-06 20:45:26,961 - INFO - Total Stores: 29
+2024-12-06 20:45:26.961118 - Total Stores: 29
+2024-12-06 20:45:26,961 - INFO - Total Transactions: 2155
+2024-12-06 20:45:26.961463 - Total Transactions: 2155
+2024-12-06 20:45:28,520 - INFO - Processus terminé avec succès.
+2024-12-06 20:45:28.520970 - Processus terminÃ© avec succÃ¨s.
+2024-12-06 20:45:28,666 - INFO - Closing down clientserver connection
+2024-12-06 21:02:01,100 - ERROR - Inconsistency in RateKey: 1 keys are missing in the dimension table.
+2024-12-06 21:02:04,572 - INFO - *** Rapport des données traitées ***
+2024-12-06 21:02:04.572973 - *** Rapport des donnÃ©es traitÃ©es ***
+2024-12-06 21:02:04,573 - INFO - Total Clients: 91
+2024-12-06 21:02:04.573824 - Total Clients: 91
+2024-12-06 21:02:04,574 - INFO - Total Products: 77
+2024-12-06 21:02:04.574549 - Total Products: 77
+2024-12-06 21:02:04,574 - INFO - Total Stores: 29
+2024-12-06 21:02:04.574853 - Total Stores: 29
+2024-12-06 21:02:04,575 - INFO - Total Transactions: 2155
+2024-12-06 21:02:04.575354 - Total Transactions: 2155
+2024-12-06 21:02:05,953 - INFO - Processus terminé avec succès.
+2024-12-06 21:02:05.954699 - Processus terminÃ© avec succÃ¨s.
+2024-12-06 21:02:06,748 - INFO - Closing down clientserver connection
+2024-12-06 21:05:40,944 - ERROR - Inconsistency in RateKey: 1 keys are missing in the dimension table.
+2024-12-06 21:05:44,392 - INFO - *** Rapport des données traitées ***
+2024-12-06 21:05:44.392837 - *** Rapport des donnÃ©es traitÃ©es ***
+2024-12-06 21:05:44,392 - INFO - Total Clients: 91
+2024-12-06 21:05:44.393837 - Total Clients: 91
+2024-12-06 21:05:44,393 - INFO - Total Products: 77
+2024-12-06 21:05:44.393837 - Total Products: 77
+2024-12-06 21:05:44,393 - INFO - Total Stores: 29
+2024-12-06 21:05:44.393837 - Total Stores: 29
+2024-12-06 21:05:44,393 - INFO - Total Transactions: 2155
+2024-12-06 21:05:44.394837 - Total Transactions: 2155
+2024-12-06 21:05:45,737 - INFO - Processus terminé avec succès.
+2024-12-06 21:05:45.737956 - Processus terminÃ© avec succÃ¨s.
+2024-12-06 21:05:45,932 - INFO - Closing down clientserver connection
+2024-12-06 21:07:25,154 - ERROR - Inconsistency in RateKey: 1 keys are missing in the dimension table.
+2024-12-06 21:07:28,498 - INFO - *** Rapport des données traitées ***
+2024-12-06 21:07:28.498880 - *** Rapport des donnÃ©es traitÃ©es ***
+2024-12-06 21:07:28,499 - INFO - Total Clients: 91
+2024-12-06 21:07:28.499881 - Total Clients: 91
+2024-12-06 21:07:28,499 - INFO - Total Products: 77
+2024-12-06 21:07:28.500777 - Total Products: 77
+2024-12-06 21:07:28,500 - INFO - Total Stores: 29
+2024-12-06 21:07:28.501274 - Total Stores: 29
+2024-12-06 21:07:28,501 - INFO - Total Transactions: 2155
+2024-12-06 21:07:28.501423 - Total Transactions: 2155
+2024-12-06 21:07:29,995 - INFO - Processus terminé avec succès.
+2024-12-06 21:07:29.995826 - Processus terminÃ© avec succÃ¨s.
+2024-12-06 21:07:30,568 - INFO - Closing down clientserver connection

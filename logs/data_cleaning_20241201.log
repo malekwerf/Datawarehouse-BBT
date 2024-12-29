@@ -1,0 +1,122 @@
+2024-12-01 16:00:53,634 - INFO - Tous les fichiers CSV ont été chargés avec succès.
+2024-12-01 16:00:54,648 - INFO - Fichier transactions sauvegardé dans la couche Bronze.
+2024-12-01 16:00:56,371 - INFO - Fichier clients sauvegardé dans la couche Bronze.
+2024-12-01 16:00:57,108 - INFO - Fichier magasins sauvegardé dans la couche Bronze.
+2024-12-01 16:00:57,802 - INFO - Fichier produits sauvegardé dans la couche Bronze.
+2024-12-01 16:00:58,410 - INFO - Fichier categories sauvegardé dans la couche Bronze.
+2024-12-01 16:00:58,847 - INFO - Fichier taxes sauvegardé dans la couche Bronze.
+2024-12-01 16:00:59,525 - INFO - Fichier exchange sauvegardé dans la couche Bronze.
+2024-12-01 16:01:00,234 - INFO - Rapport d'audit généré et sauvegardé sous : rapports/audit_report_20241201.txt
+2024-12-01 16:01:00,745 - INFO - Closing down clientserver connection
+2024-12-01 16:02:21,366 - INFO - Tous les fichiers CSV ont été chargés avec succès.
+2024-12-01 16:02:22,308 - INFO - Fichier transactions sauvegardé dans la couche Bronze.
+2024-12-01 16:02:23,907 - INFO - Fichier clients sauvegardé dans la couche Bronze.
+2024-12-01 16:02:24,605 - INFO - Fichier magasins sauvegardé dans la couche Bronze.
+2024-12-01 16:02:25,220 - INFO - Fichier produits sauvegardé dans la couche Bronze.
+2024-12-01 16:02:25,819 - INFO - Fichier categories sauvegardé dans la couche Bronze.
+2024-12-01 16:02:26,295 - INFO - Fichier taxes sauvegardé dans la couche Bronze.
+2024-12-01 16:02:26,900 - INFO - Fichier exchange sauvegardé dans la couche Bronze.
+2024-12-01 16:02:27,532 - INFO - Rapport d'audit généré et sauvegardé sous : rapports/audit_report_20241201.txt
+2024-12-01 16:02:30,655 - INFO - Les produits ont été groupés par catégorie.
+2024-12-01 16:02:32,685 - INFO - Closing down clientserver connection
+2024-12-01 16:03:45,340 - INFO - Tous les fichiers CSV ont été chargés avec succès.
+2024-12-01 16:03:46,316 - INFO - Fichier transactions sauvegardé dans la couche Bronze.
+2024-12-01 16:03:47,972 - INFO - Fichier clients sauvegardé dans la couche Bronze.
+2024-12-01 16:03:48,657 - INFO - Fichier magasins sauvegardé dans la couche Bronze.
+2024-12-01 16:03:49,278 - INFO - Fichier produits sauvegardé dans la couche Bronze.
+2024-12-01 16:03:49,852 - INFO - Fichier categories sauvegardé dans la couche Bronze.
+2024-12-01 16:03:50,311 - INFO - Fichier taxes sauvegardé dans la couche Bronze.
+2024-12-01 16:03:50,904 - INFO - Fichier exchange sauvegardé dans la couche Bronze.
+2024-12-01 16:03:51,510 - INFO - Rapport d'audit généré et sauvegardé sous : rapports/audit_report_20241201.txt
+2024-12-01 16:03:54,474 - INFO - Les produits ont été groupés par catégorie.
+2024-12-01 16:03:56,900 - INFO - Transformation appliquée : Détection et étiquetage des anomalies.
+2024-12-01 16:03:57,501 - INFO - Transformation appliquée : Introduction d'erreurs intentionnelles dans les produits.
+2024-12-01 16:03:58,110 - INFO - Transformation appliquée : Introduction d'erreurs intentionnelles dans les clients.
+2024-12-01 16:03:58,391 - INFO - Suivi de qualité terminé. Anomalies identifiées.
+2024-12-01 16:04:02,603 - INFO - Closing down clientserver connection
+2024-12-01 17:03:52,756 - INFO - Tous les fichiers CSV ont été chargés avec succès.
+2024-12-01 17:03:53,754 - INFO - Fichier transactions sauvegardé dans la couche Bronze.
+2024-12-01 17:03:55,553 - INFO - Fichier clients sauvegardé dans la couche Bronze.
+2024-12-01 17:03:56,341 - INFO - Fichier magasins sauvegardé dans la couche Bronze.
+2024-12-01 17:03:57,028 - INFO - Fichier produits sauvegardé dans la couche Bronze.
+2024-12-01 17:03:57,641 - INFO - Fichier categories sauvegardé dans la couche Bronze.
+2024-12-01 17:03:58,111 - INFO - Fichier taxes sauvegardé dans la couche Bronze.
+2024-12-01 17:03:58,749 - INFO - Fichier exchange sauvegardé dans la couche Bronze.
+2024-12-01 17:03:59,687 - INFO - Rapport d'audit généré et sauvegardé sous : rapports/audit_report_20241201.txt
+2024-12-01 17:04:02,706 - ERROR - Error enriching clients: cannot access local variable 'clients_df' where it is not associated with a value
+2024-12-01 17:04:02,711 - INFO - Closing down clientserver connection
+2024-12-01 17:06:00,796 - INFO - Tous les fichiers CSV ont été chargés avec succès.
+2024-12-01 17:06:01,852 - INFO - Fichier transactions sauvegardé dans la couche Bronze.
+2024-12-01 17:06:03,586 - INFO - Fichier clients sauvegardé dans la couche Bronze.
+2024-12-01 17:06:04,357 - INFO - Fichier magasins sauvegardé dans la couche Bronze.
+2024-12-01 17:06:05,206 - INFO - Fichier produits sauvegardé dans la couche Bronze.
+2024-12-01 17:06:05,929 - INFO - Fichier categories sauvegardé dans la couche Bronze.
+2024-12-01 17:06:06,410 - INFO - Fichier taxes sauvegardé dans la couche Bronze.
+2024-12-01 17:06:07,009 - INFO - Fichier exchange sauvegardé dans la couche Bronze.
+2024-12-01 17:06:07,663 - INFO - Rapport d'audit généré et sauvegardé sous : rapports/audit_report_20241201.txt
+2024-12-01 17:06:11,128 - INFO - Les produits ont été groupés par catégorie.
+2024-12-01 17:06:13,717 - INFO - Transformation appliquée : Détection et étiquetage des anomalies.
+2024-12-01 17:06:14,385 - INFO - Transformation appliquée : Introduction d'erreurs intentionnelles dans les produits.
+2024-12-01 17:06:15,220 - INFO - Transformation appliquée : Introduction d'erreurs intentionnelles dans les clients.
+2024-12-01 17:06:16,098 - INFO - Suivi de qualité terminé. Anomalies identifiées.
+2024-12-01 17:06:19,971 - INFO - Closing down clientserver connection
+2024-12-01 17:13:55,049 - INFO - Tous les fichiers CSV ont été chargés avec succès.
+2024-12-01 17:13:56,041 - INFO - Fichier transactions sauvegardé dans la couche Bronze.
+2024-12-01 17:13:57,751 - INFO - Fichier clients sauvegardé dans la couche Bronze.
+2024-12-01 17:13:58,446 - INFO - Fichier magasins sauvegardé dans la couche Bronze.
+2024-12-01 17:13:59,104 - INFO - Fichier produits sauvegardé dans la couche Bronze.
+2024-12-01 17:13:59,714 - INFO - Fichier categories sauvegardé dans la couche Bronze.
+2024-12-01 17:14:00,161 - INFO - Fichier taxes sauvegardé dans la couche Bronze.
+2024-12-01 17:14:00,770 - INFO - Fichier exchange sauvegardé dans la couche Bronze.
+2024-12-01 17:14:01,446 - INFO - Rapport d'audit généré et sauvegardé sous : rapports/audit_report_20241201.txt
+2024-12-01 17:14:04,778 - INFO - Les produits ont été groupés par catégorie.
+2024-12-01 17:14:07,455 - INFO - Transformation appliquée : Détection et étiquetage des anomalies.
+2024-12-01 17:14:08,025 - INFO - Transformation appliquée : Introduction d'erreurs intentionnelles dans les produits.
+2024-12-01 17:14:08,848 - INFO - Transformation appliquée : Introduction d'erreurs intentionnelles dans les clients.
+2024-12-01 17:14:09,319 - INFO - Suivi de qualité terminé. Anomalies identifiées.
+2024-12-01 17:14:13,152 - INFO - Closing down clientserver connection
+2024-12-01 17:15:30,719 - INFO - Tous les fichiers CSV ont été chargés avec succès.
+2024-12-01 17:15:31,702 - INFO - Fichier transactions sauvegardé dans la couche Bronze.
+2024-12-01 17:15:33,393 - INFO - Fichier clients sauvegardé dans la couche Bronze.
+2024-12-01 17:15:34,111 - INFO - Fichier magasins sauvegardé dans la couche Bronze.
+2024-12-01 17:15:34,781 - INFO - Fichier produits sauvegardé dans la couche Bronze.
+2024-12-01 17:15:35,382 - INFO - Fichier categories sauvegardé dans la couche Bronze.
+2024-12-01 17:15:35,829 - INFO - Fichier taxes sauvegardé dans la couche Bronze.
+2024-12-01 17:15:36,431 - INFO - Fichier exchange sauvegardé dans la couche Bronze.
+2024-12-01 17:15:37,156 - INFO - Rapport d'audit généré et sauvegardé sous : rapports/audit_report_20241201.txt
+2024-12-01 17:15:41,383 - INFO - Les produits ont été groupés par catégorie.
+2024-12-01 17:15:43,922 - INFO - Transformation appliquée : Détection et étiquetage des anomalies.
+2024-12-01 17:15:44,525 - INFO - Transformation appliquée : Introduction d'erreurs intentionnelles dans les produits.
+2024-12-01 17:15:45,153 - INFO - Transformation appliquée : Introduction d'erreurs intentionnelles dans les clients.
+2024-12-01 17:15:45,753 - INFO - Suivi de qualité terminé. Anomalies identifiées.
+2024-12-01 17:15:49,477 - INFO - Closing down clientserver connection
+2024-12-01 17:17:38,703 - INFO - Tous les fichiers CSV ont été chargés avec succès.
+2024-12-01 17:17:39,652 - INFO - Fichier transactions sauvegardé dans la couche Bronze.
+2024-12-01 17:17:41,364 - INFO - Fichier clients sauvegardé dans la couche Bronze.
+2024-12-01 17:17:42,124 - INFO - Fichier magasins sauvegardé dans la couche Bronze.
+2024-12-01 17:17:42,798 - INFO - Fichier produits sauvegardé dans la couche Bronze.
+2024-12-01 17:17:43,443 - INFO - Fichier categories sauvegardé dans la couche Bronze.
+2024-12-01 17:17:43,919 - INFO - Fichier taxes sauvegardé dans la couche Bronze.
+2024-12-01 17:17:44,548 - INFO - Fichier exchange sauvegardé dans la couche Bronze.
+2024-12-01 17:17:45,238 - INFO - Rapport d'audit généré et sauvegardé sous : rapports/audit_report_20241201.txt
+2024-12-01 17:17:48,359 - INFO - Les produits ont été groupés par catégorie.
+2024-12-01 17:17:50,768 - INFO - Transformation appliquée : Détection et étiquetage des anomalies.
+2024-12-01 17:17:51,442 - INFO - Transformation appliquée : Introduction d'erreurs intentionnelles dans les produits.
+2024-12-01 17:17:52,019 - INFO - Transformation appliquée : Introduction d'erreurs intentionnelles dans les clients.
+2024-12-01 17:17:52,642 - INFO - Suivi de qualité terminé. Anomalies identifiées.
+2024-12-01 17:17:56,699 - INFO - Closing down clientserver connection
+2024-12-01 20:36:05,765 - INFO - Tous les fichiers CSV ont été chargés avec succès.
+2024-12-01 20:36:06,783 - INFO - Fichier transactions sauvegardé dans la couche Bronze.
+2024-12-01 20:36:08,701 - INFO - Fichier clients sauvegardé dans la couche Bronze.
+2024-12-01 20:36:09,639 - INFO - Fichier magasins sauvegardé dans la couche Bronze.
+2024-12-01 20:36:10,489 - INFO - Fichier produits sauvegardé dans la couche Bronze.
+2024-12-01 20:36:11,375 - INFO - Fichier categories sauvegardé dans la couche Bronze.
+2024-12-01 20:36:11,938 - INFO - Fichier taxes sauvegardé dans la couche Bronze.
+2024-12-01 20:36:12,639 - INFO - Fichier exchange sauvegardé dans la couche Bronze.
+2024-12-01 20:36:13,411 - INFO - Rapport d'audit généré et sauvegardé sous : rapports/audit_report_20241201.txt
+2024-12-01 20:36:16,468 - INFO - Les produits ont été groupés par catégorie.
+2024-12-01 20:36:19,580 - INFO - Transformation appliquée : Détection et étiquetage des anomalies.
+2024-12-01 20:36:20,285 - INFO - Transformation appliquée : Introduction d'erreurs intentionnelles dans les produits.
+2024-12-01 20:36:20,969 - INFO - Transformation appliquée : Introduction d'erreurs intentionnelles dans les clients.
+2024-12-01 20:36:21,813 - INFO - Suivi de qualité terminé. Anomalies identifiées.
+2024-12-01 20:36:26,291 - INFO - Closing down clientserver connection

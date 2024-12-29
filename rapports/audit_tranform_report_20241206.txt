@@ -1,0 +1,28 @@
+2024-12-06 17:38:03.643632 - Applied fillna with values: {'ShippedDate': '01/01/2000', 'ShipName': 'Non spécifié', 'ShipCountry': 'Non spécifié', 'OrderDate': '01/01/2000', 'ShipRegion': 'Non spécifié', 'ShipPostalCode': 'Non spécifié', 'Country': 'Non spécifié', 'CompanyName': 'Non spécifié', 'City': 'Non spécifié', 'PostalCode': 'Non spécifié', 'Fax': 'Non spécifié', 'Phone': 'Non spécifié', 'Freight': 0.0, 'UnitPrice': 0.0, 'Discount': 0.0, 'Quantity': 0, 'UnitsInStock': 0, 'ShipAddress': 'Non spécifié', 'CategoryName': 'Non spécifié'}
+2024-12-06 17:38:03.763678 - Cleaned 'ShipAddress' by removing special characters
+2024-12-06 17:38:03.828183 - Cleaned and reformatted 'OrderDate'
+2024-12-06 17:38:03.892095 - Cleaned and reformatted 'ShippedDate'
+2024-12-06 17:38:03.955796 - Cleaned and reformatted 'RequiredDate'
+2024-12-06 17:38:04.067020 - les données sont nettoyées
+2024-12-06 17:38:04.130654 - Applied fillna with values: {'ShippedDate': '01/01/2000', 'ShipName': 'Non spécifié', 'ShipCountry': 'Non spécifié', 'OrderDate': '01/01/2000', 'ShipRegion': 'Non spécifié', 'ShipPostalCode': 'Non spécifié', 'Country': 'Non spécifié', 'CompanyName': 'Non spécifié', 'City': 'Non spécifié', 'PostalCode': 'Non spécifié', 'Fax': 'Non spécifié', 'Phone': 'Non spécifié', 'Freight': 0.0, 'UnitPrice': 0.0, 'Discount': 0.0, 'Quantity': 0, 'UnitsInStock': 0, 'ShipAddress': 'Non spécifié', 'CategoryName': 'Non spécifié'}
+2024-12-06 17:38:04.142655 - Standardized formats in 'Phone', set invalid formats to 'Unknown'
+2024-12-06 17:38:04.157589 - Cleaned 'Country' by removing special characters
+2024-12-06 17:38:04.217690 - les données sont nettoyées
+2024-12-06 17:38:04.225687 - Applied fillna with values: {'ShippedDate': '01/01/2000', 'ShipName': 'Non spécifié', 'ShipCountry': 'Non spécifié', 'OrderDate': '01/01/2000', 'ShipRegion': 'Non spécifié', 'ShipPostalCode': 'Non spécifié', 'Country': 'Non spécifié', 'CompanyName': 'Non spécifié', 'City': 'Non spécifié', 'PostalCode': 'Non spécifié', 'Fax': 'Non spécifié', 'Phone': 'Non spécifié', 'Freight': 0.0, 'UnitPrice': 0.0, 'Discount': 0.0, 'Quantity': 0, 'UnitsInStock': 0, 'ShipAddress': 'Non spécifié', 'CategoryName': 'Non spécifié'}
+2024-12-06 17:38:04.311392 - Cleaned 'UnitsInStock' by removing non-numeric characters and setting invalid values to 0
+2024-12-06 17:38:04.359175 - les données sont nettoyées
+2024-12-06 17:38:04.411567 - Applied fillna with values: {'ShippedDate': '01/01/2000', 'ShipName': 'Non spécifié', 'ShipCountry': 'Non spécifié', 'OrderDate': '01/01/2000', 'ShipRegion': 'Non spécifié', 'ShipPostalCode': 'Non spécifié', 'Country': 'Non spécifié', 'CompanyName': 'Non spécifié', 'City': 'Non spécifié', 'PostalCode': 'Non spécifié', 'Fax': 'Non spécifié', 'Phone': 'Non spécifié', 'Freight': 0.0, 'UnitPrice': 0.0, 'Discount': 0.0, 'Quantity': 0, 'UnitsInStock': 0, 'ShipAddress': 'Non spécifié', 'CategoryName': 'Non spécifié'}
+2024-12-06 17:38:04.420792 - Standardized formats in 'Phone', set invalid formats to 'Unknown'
+2024-12-06 17:38:04.432456 - Cleaned 'Country' by removing special characters
+2024-12-06 17:38:04.505213 - les données sont nettoyées
+2024-12-06 17:38:04.510212 - Applied fillna with values: {'ShippedDate': '01/01/2000', 'ShipName': 'Non spécifié', 'ShipCountry': 'Non spécifié', 'OrderDate': '01/01/2000', 'ShipRegion': 'Non spécifié', 'ShipPostalCode': 'Non spécifié', 'Country': 'Non spécifié', 'CompanyName': 'Non spécifié', 'City': 'Non spécifié', 'PostalCode': 'Non spécifié', 'Fax': 'Non spécifié', 'Phone': 'Non spécifié', 'Freight': 0.0, 'UnitPrice': 0.0, 'Discount': 0.0, 'Quantity': 0, 'UnitsInStock': 0, 'ShipAddress': 'Non spécifié', 'CategoryName': 'Non spécifié'}
+2024-12-06 17:38:04.525140 - Cleaned 'CategoryName' by removing special characters
+2024-12-06 17:38:04.545141 - les données sont nettoyées
+2024-12-06 17:38:04.676927 - le code region est ajouté
+2024-12-06 17:38:04.979437 - statut client ajouté
+2024-12-06 17:38:05.551251 - statut produit ajouté
+2024-12-06 17:38:05.657231 - Les produits ont été groupés par catégorie.
+2024-12-06 17:38:06.929802 - Id taxe ajouté
+2024-12-06 17:38:07.732542 - Id currency ajouté avec succées
+2024-12-06 17:38:08.303643 - Anomalies détéctées
+2024-12-06 17:38:11.973266 - Les données transformées ont été sauvegardées dans la couche Silver.

@@ -1,0 +1,77 @@
+2024-12-12 21:02:59,117 - INFO - 2024-12-12 21:02:59.117315 - Chargement des données Bronze réussi
+2024-12-12 21:03:01,854 - INFO - 2024-12-12 21:03:01.854608 - Attribution du statut client réussie.
+2024-12-12 21:03:01,854 - INFO - 2024-12-12 21:03:01.854608 - Rapport d'audit mis à jour pour la section Statut client - Détails : Colonne 'Statut_client' ajoutée avec succès.
+2024-12-12 21:03:01,855 - INFO - 2024-12-12 21:03:01.855609 - Début de la normalisation des données pour le DataFrame transactions.
+2024-12-12 21:03:01,855 - INFO - 2024-12-12 21:03:01.855609 - Démarrage de la normalisation des données.
+2024-12-12 21:03:01,856 - INFO - 2024-12-12 21:03:01.856098 - Rapport d'audit mis à jour pour la section Normalisation - Détails : Démarrage de la normalisation des données.
+2024-12-12 21:03:02,251 - INFO - 2024-12-12 21:03:02.251124 - Début de la transformation pour la colonne: OrderDate
+2024-12-12 21:03:02,770 - INFO - 2024-12-12 21:03:02.770960 - Transformation complétée pour la colonne: OrderDate - Détails : 0 valeurs corrigées.
+2024-12-12 21:03:02,771 - INFO - 2024-12-12 21:03:02.771961 - Rapport d'audit mis à jour pour la section Normalisation - Détails : Transformation effectuée sur la colonne OrderDate.
+2024-12-12 21:03:02,974 - INFO - 2024-12-12 21:03:02.974471 - Début de la transformation pour la colonne: ShippedDate
+2024-12-12 21:03:03,241 - INFO - 2024-12-12 21:03:03.241333 - Transformation complétée pour la colonne: ShippedDate - Détails : 0 valeurs corrigées.
+2024-12-12 21:03:03,242 - INFO - 2024-12-12 21:03:03.242335 - Rapport d'audit mis à jour pour la section Normalisation - Détails : Transformation effectuée sur la colonne ShippedDate.
+2024-12-12 21:03:03,358 - INFO - 2024-12-12 21:03:03.358256 - Début de la transformation pour la colonne: RequiredDate
+2024-12-12 21:03:03,559 - INFO - 2024-12-12 21:03:03.559268 - Transformation complétée pour la colonne: RequiredDate - Détails : 0 valeurs corrigées.
+2024-12-12 21:03:03,559 - INFO - 2024-12-12 21:03:03.559268 - Rapport d'audit mis à jour pour la section Normalisation - Détails : Transformation effectuée sur la colonne RequiredDate.
+2024-12-12 21:03:03,598 - INFO - 2024-12-12 21:03:03.598539 - Remplissage des valeurs manquantes de `ShippedDate` effectué.
+2024-12-12 21:03:03,619 - INFO - 2024-12-12 21:03:03.619546 - Colonne 'UnitPrice' convertie en type numérique.
+2024-12-12 21:03:03,638 - INFO - 2024-12-12 21:03:03.638965 - Colonne 'Quantity' convertie en type numérique.
+2024-12-12 21:03:03,657 - INFO - 2024-12-12 21:03:03.656958 - Colonne 'Discount' convertie en type numérique.
+2024-12-12 21:03:03,679 - INFO - 2024-12-12 21:03:03.679961 - Colonne 'Freight' convertie en type numérique.
+2024-12-12 21:03:04,004 - INFO - 2024-12-12 21:03:04.004224 - Mappage de `ShipCity` en `ShipRegion` complété avec succès.
+2024-12-12 21:03:04,005 - INFO - 2024-12-12 21:03:04.005228 - Nettoyage des transactions terminée.
+2024-12-12 21:03:04,092 - INFO - 2024-12-12 21:03:04.092179 - Traitement des valeurs négatives dans transactions terminé.
+2024-12-12 21:03:42,120 - INFO - 2024-12-12 21:03:42.120835 - Suppression des colonnes dupliquées dans transactions terminée.
+2024-12-12 21:03:42,216 - INFO - 2024-12-12 21:03:42.216925 - Ajout de la colonne 'ID_Taxe' réussi.
+2024-12-12 21:03:42,217 - INFO - 2024-12-12 21:03:42.217922 - Rapport d'audit mis à jour pour la section Ajout de la colonne ID_Taxe - Détails : Colonne 'ID_Taxe' ajoutée avec succès en fonction des taux de taxe.
+2024-12-12 21:03:42,217 - INFO - 2024-12-12 21:03:42.217922 - Ajout de la colonne ID_Taxe dans transactions terminé.
+2024-12-12 21:03:42,291 - INFO - 2024-12-12 21:03:42.291012 - Ajout de la colonne 'ID_Currency' réussi.
+2024-12-12 21:03:42,291 - INFO - 2024-12-12 21:03:42.291012 - Rapport d'audit mis à jour pour la section Ajout de la colonne ID_Currency - Détails : Colonne 'ID_Currency' ajoutée avec succès en fonction du pays et de la date.
+2024-12-12 21:03:42,291 - INFO - 2024-12-12 21:03:42.291012 - Ajout de la colonne ID_Currency dans transactions terminé.
+2024-12-12 21:03:42,318 - INFO - 2024-12-12 21:03:42.318614 - Anomalies de dates futures détectées avec succès.
+2024-12-12 21:03:42,319 - INFO - 2024-12-12 21:03:42.319612 - Anomalies de dates futures détectées avec succès
+2024-12-12 21:03:42,319 - INFO - 2024-12-12 21:03:42.319612 - Début de la normalisation des données pour le DataFrame clients.
+2024-12-12 21:03:42,320 - INFO - 2024-12-12 21:03:42.319612 - Démarrage de la normalisation des données.
+2024-12-12 21:03:42,320 - INFO - 2024-12-12 21:03:42.320607 - Rapport d'audit mis à jour pour la section Normalisation - Détails : Démarrage de la normalisation des données.
+2024-12-12 21:03:42,455 - WARNING - 2024-12-12 21:03:42.455340 - La colonne `ShipCity` n'existe pas dans le DataFrame, le mappage est ignoré.
+2024-12-12 21:03:42,456 - INFO - 2024-12-12 21:03:42.456339 - Rapport d'audit mis à jour pour la section Normalisation - Détails : Mappage de `ShipCity` ignoré (colonne manquante).
+2024-12-12 21:03:42,456 - INFO - 2024-12-12 21:03:42.456339 - Nettoyage des clients terminée.
+2024-12-12 21:03:42,456 - INFO - 2024-12-12 21:03:42.456339 - Traitement des valeurs négatives dans clients terminé.
+2024-12-12 21:03:42,457 - INFO - 2024-12-12 21:03:42.457341 - Démarrage de l'attribution des régions basées sur les pays.
+2024-12-12 21:03:42,457 - INFO - 2024-12-12 21:03:42.457341 - Rapport d'audit mis à jour pour la section Attribution des régions - Détails : Début du traitement.
+2024-12-12 21:03:42,526 - INFO - 2024-12-12 21:03:42.526148 - Attribution des régions terminée.
+2024-12-12 21:03:42,527 - INFO - 2024-12-12 21:03:42.526148 - Rapport d'audit mis à jour pour la section Attribution des régions - Détails : Colonne 'Code_region' ajoutée avec succès.
+2024-12-12 21:03:42,527 - INFO - 2024-12-12 21:03:42.527148 - Attribution des régions aux clients terminée.
+2024-12-12 21:03:42,527 - INFO - 2024-12-12 21:03:42.527148 - Début de la normalisation des données pour le DataFrame catégories.
+2024-12-12 21:03:42,527 - INFO - 2024-12-12 21:03:42.527148 - Démarrage de la normalisation des données.
+2024-12-12 21:03:42,528 - INFO - 2024-12-12 21:03:42.528160 - Rapport d'audit mis à jour pour la section Normalisation - Détails : Démarrage de la normalisation des données.
+2024-12-12 21:03:42,572 - WARNING - 2024-12-12 21:03:42.572646 - La colonne `ShipCity` n'existe pas dans le DataFrame, le mappage est ignoré.
+2024-12-12 21:03:42,573 - INFO - 2024-12-12 21:03:42.573639 - Rapport d'audit mis à jour pour la section Normalisation - Détails : Mappage de `ShipCity` ignoré (colonne manquante).
+2024-12-12 21:03:42,573 - INFO - 2024-12-12 21:03:42.573639 - Nettoyage des catégories terminée.
+2024-12-12 21:03:42,573 - INFO - 2024-12-12 21:03:42.573639 - Traitement des valeurs négatives dans catégories terminé.
+2024-12-12 21:03:42,574 - INFO - 2024-12-12 21:03:42.573639 - Début de la normalisation des données pour le DataFrame produits.
+2024-12-12 21:03:42,574 - INFO - 2024-12-12 21:03:42.574639 - Démarrage de la normalisation des données.
+2024-12-12 21:03:42,574 - INFO - 2024-12-12 21:03:42.574639 - Rapport d'audit mis à jour pour la section Normalisation - Détails : Démarrage de la normalisation des données.
+2024-12-12 21:03:42,596 - INFO - 2024-12-12 21:03:42.596640 - Colonne 'UnitPrice' convertie en type numérique.
+2024-12-12 21:03:42,608 - INFO - 2024-12-12 21:03:42.608640 - Colonne 'UnitsInStock' convertie en type numérique.
+2024-12-12 21:03:42,621 - INFO - 2024-12-12 21:03:42.621639 - Colonne 'UnitsOnOrder' convertie en type numérique.
+2024-12-12 21:03:42,662 - WARNING - 2024-12-12 21:03:42.662645 - La colonne `ShipCity` n'existe pas dans le DataFrame, le mappage est ignoré.
+2024-12-12 21:03:42,663 - INFO - 2024-12-12 21:03:42.662645 - Rapport d'audit mis à jour pour la section Normalisation - Détails : Mappage de `ShipCity` ignoré (colonne manquante).
+2024-12-12 21:03:42,663 - INFO - 2024-12-12 21:03:42.663655 - Nettoyage des produits terminée.
+2024-12-12 21:03:42,684 - INFO - 2024-12-12 21:03:42.683487 - Traitement des valeurs négatives dans produits terminé.
+2024-12-12 21:03:42,746 - INFO - 2024-12-12 21:03:42.746734 - Statut des produits mis à jour avec succès.
+2024-12-12 21:03:42,747 - INFO - 2024-12-12 21:03:42.747744 - Rapport d'audit mis à jour pour la section Statut produit - Détails : Colonne 'Statut_produit' ajoutée avec succès.
+2024-12-12 21:03:42,748 - INFO - 2024-12-12 21:03:42.748733 - Ajout du statut des produits terminé.
+2024-12-12 21:03:42,869 - INFO - 2024-12-12 21:03:42.869472 - Regroupement des produits par catégorie réussi.
+2024-12-12 21:03:42,870 - INFO - 2024-12-12 21:03:42.870469 - Rapport d'audit mis à jour pour la section Regroupement produits par catégorie - Détails : Colonne 'ProduitsParCategorie' ajoutée avec succès.
+2024-12-12 21:03:42,870 - INFO - 2024-12-12 21:03:42.870469 - Regroupement des produits par catégorie terminé.
+2024-12-12 21:03:43,018 - INFO - 2024-12-12 21:03:43.018461 - le statut des produits en fonction de leur dernière date de vente
+2024-12-12 21:03:43,018 - INFO - 2024-12-12 21:03:43.018461 - Début de la normalisation des données pour le DataFrame magasins.
+2024-12-12 21:03:43,019 - INFO - 2024-12-12 21:03:43.019462 - Démarrage de la normalisation des données.
+2024-12-12 21:03:43,019 - INFO - 2024-12-12 21:03:43.019462 - Rapport d'audit mis à jour pour la section Normalisation - Détails : Démarrage de la normalisation des données.
+2024-12-12 21:03:43,119 - WARNING - 2024-12-12 21:03:43.119460 - La colonne `ShipCity` n'existe pas dans le DataFrame, le mappage est ignoré.
+2024-12-12 21:03:43,119 - INFO - 2024-12-12 21:03:43.119460 - Rapport d'audit mis à jour pour la section Normalisation - Détails : Mappage de `ShipCity` ignoré (colonne manquante).
+2024-12-12 21:03:43,120 - INFO - 2024-12-12 21:03:43.120460 - Nettoyage des magasins terminée.
+2024-12-12 21:03:43,120 - INFO - 2024-12-12 21:03:43.120460 - Traitement des valeurs négatives dans magasins terminé.
+2024-12-12 21:03:43,120 - INFO - 2024-12-12 21:03:43.120460 - Transformation des données exécuté avec succès.
+2024-12-12 21:03:47,940 - INFO - 2024-12-12 21:03:47.940684 - Rapport d'audit sauvegardé avec succès. - Détails : Fichier : rapports/audit_transform_report.txt

@@ -1,0 +1,641 @@
+=== Rapport d'Audit des Transformations ===
+Date : 2024-12-01 15:48:15
+
+### Résumé Global ###
+Total INFO : 1216
+Total ERREURS : 2326
+Total AVERTISSEMENTS : 0
+
+### Détails des Transformations ###
+2024-12-01 08:58:13,670 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 08:58:14,112 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 08:58:14,484 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 08:58:14,853 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 08:58:15,204 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 08:58:15,694 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 08:58:16,069 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 08:58:16,741 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 08:58:16,987 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 08:58:17,187 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 08:58:17,369 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 08:58:17,650 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 27514 rows after removing duplicates.
+2024-12-01 08:58:17,819 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 08:58:17,985 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 08:58:18,198 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 08:58:18,325 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 08:58:18,445 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 08:58:18,560 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 08:58:24,370 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 08:58:26,678 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+2024-12-01 09:21:32,146 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 09:21:32,609 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 09:21:32,965 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 09:21:33,325 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 09:21:33,645 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 09:21:34,144 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 09:21:34,482 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 09:21:35,144 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 09:21:35,356 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 09:21:35,606 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 09:21:35,776 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 09:21:36,046 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 27514 rows after removing duplicates.
+2024-12-01 09:21:36,208 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 09:21:36,341 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 09:21:36,558 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 09:21:36,704 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 09:21:36,831 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 09:21:36,976 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 09:21:42,150 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 09:21:44,346 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+2024-12-01 09:30:56,811 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 09:30:57,282 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 09:30:57,680 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 09:30:58,062 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 09:30:58,410 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 09:30:58,903 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 09:30:59,232 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 09:30:59,866 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 09:31:00,125 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 09:31:00,322 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 09:31:00,511 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 09:31:00,783 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 27514 rows after removing duplicates.
+2024-12-01 09:31:00,941 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 09:31:01,069 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 09:31:01,316 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 09:31:01,498 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 09:31:01,624 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 09:31:01,736 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 09:31:07,032 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 09:31:09,232 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+2024-12-01 12:23:12,612 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:23:13,033 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:23:13,448 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:23:13,815 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:23:14,161 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:23:14,649 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:23:15,056 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:23:15,689 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 12:23:15,923 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 12:23:16,153 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 12:23:16,343 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 12:23:16,629 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 27514 rows after removing duplicates.
+2024-12-01 12:23:16,796 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 12:23:16,928 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 12:23:17,171 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 12:23:17,303 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 12:23:17,430 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 12:23:17,543 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 12:23:23,861 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 12:23:26,848 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+2024-12-01 12:24:31,064 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:24:31,519 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:24:31,884 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:24:32,231 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:24:32,532 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:24:33,036 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:24:33,384 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:24:34,024 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 12:24:34,244 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 12:24:34,483 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 12:24:34,658 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 12:24:34,929 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 27514 rows after removing duplicates.
+2024-12-01 12:24:35,089 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 12:24:35,234 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 12:24:35,453 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 12:24:35,587 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 12:24:35,743 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 12:24:35,860 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 12:24:41,526 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 12:24:43,730 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+2024-12-01 12:27:57,284 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:27:57,724 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:27:58,116 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:27:58,497 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:27:58,800 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:27:59,302 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:27:59,647 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:28:00,270 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 12:28:00,516 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 12:28:00,708 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 12:28:00,883 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 12:28:01,155 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 27514 rows after removing duplicates.
+2024-12-01 12:28:01,357 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 12:28:01,507 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 12:28:01,778 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 12:28:01,935 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 12:28:02,065 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 12:28:02,209 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 12:28:08,294 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 12:28:10,827 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+2024-12-01 12:29:26,007 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:29:26,474 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:29:26,843 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:29:27,183 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:29:27,502 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:29:28,017 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:29:28,368 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:29:29,000 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 12:29:29,247 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 12:29:29,453 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 12:29:29,628 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 12:29:29,894 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 27514 rows after removing duplicates.
+2024-12-01 12:29:30,055 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 12:29:30,187 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 12:29:30,408 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 12:29:30,540 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 12:29:30,701 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 12:29:30,817 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 12:29:37,152 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 12:29:39,489 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+2024-12-01 12:31:33,828 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:31:34,303 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:31:34,695 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:31:35,068 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:31:35,417 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:31:36,128 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:31:36,472 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:31:37,073 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 12:31:37,344 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 12:31:37,613 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 12:31:37,833 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 12:31:38,156 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 27514 rows after removing duplicates.
+2024-12-01 12:31:38,336 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 12:31:38,499 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 12:31:38,751 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 12:31:38,893 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 12:31:39,060 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 12:31:39,177 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 12:31:45,375 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 12:31:47,947 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+2024-12-01 12:34:12,934 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:34:13,333 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:34:13,722 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:34:14,124 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:34:14,439 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:34:14,888 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:34:15,256 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:34:15,870 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 12:34:16,079 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 12:34:16,308 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 12:34:16,482 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 12:34:16,759 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 27514 rows after removing duplicates.
+2024-12-01 12:34:16,917 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 12:34:17,041 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 12:34:17,276 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 12:34:17,404 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 12:34:17,525 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 12:34:17,640 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 12:34:23,345 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 12:34:25,675 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+2024-12-01 12:35:11,586 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:35:12,125 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:35:12,530 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:35:12,900 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:35:13,211 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:35:13,905 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:35:14,323 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:35:15,067 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 12:35:15,307 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 12:35:15,555 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 12:35:15,784 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 12:35:16,062 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 27514 rows after removing duplicates.
+2024-12-01 12:35:16,240 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 12:35:16,380 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 12:35:16,633 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 12:35:16,784 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 12:35:16,911 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 12:35:17,028 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 12:35:23,852 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 12:35:26,092 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+2024-12-01 12:46:01,957 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:46:02,389 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:46:02,776 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:46:03,180 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:46:03,481 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:46:04,006 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:46:04,385 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:46:05,021 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 12:46:05,239 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 12:46:05,448 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 12:46:05,653 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 12:46:05,951 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 41648 rows after removing duplicates.
+2024-12-01 12:46:06,116 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 12:46:06,242 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 12:46:06,456 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 12:46:06,614 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 12:46:06,750 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 12:46:06,875 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 12:46:12,940 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 12:46:15,373 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+2024-12-01 12:49:26,611 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:49:27,073 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:49:27,426 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:49:27,839 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:49:28,161 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:49:28,719 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:49:29,095 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:49:29,726 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 12:49:29,927 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 12:49:30,126 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 12:49:30,346 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 12:49:30,626 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 41648 rows after removing duplicates.
+2024-12-01 12:49:30,789 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 12:49:30,922 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 12:49:31,128 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 12:49:31,288 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 12:49:31,439 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 12:49:31,553 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 12:49:37,734 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 12:49:40,087 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+2024-12-01 12:50:28,125 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:50:28,579 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:50:28,958 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:50:29,312 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:50:29,619 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:50:30,170 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:50:30,523 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:50:31,117 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 12:50:31,329 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 12:50:31,568 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 12:50:31,766 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 12:50:32,055 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 41648 rows after removing duplicates.
+2024-12-01 12:50:32,215 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 12:50:32,343 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 12:50:32,566 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 12:50:32,699 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 12:50:32,820 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 12:50:32,965 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 12:50:38,922 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 12:50:41,107 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+2024-12-01 12:51:49,479 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:51:49,983 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:51:50,365 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:51:50,715 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:51:51,051 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:51:51,574 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:51:51,910 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 12:51:52,523 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 12:51:52,769 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 12:51:52,961 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 12:51:53,133 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 12:51:53,416 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 41648 rows after removing duplicates.
+2024-12-01 12:51:53,578 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 12:51:53,708 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 12:51:53,942 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 12:51:54,078 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 12:51:54,197 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 12:51:54,316 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 12:52:00,128 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 12:52:02,663 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+2024-12-01 13:24:27,482 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 13:24:27,950 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 13:24:28,386 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 13:24:28,800 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 13:24:29,103 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 13:24:29,643 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 13:24:30,083 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 13:24:30,840 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 13:24:31,085 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 13:24:31,309 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 13:24:31,489 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 13:24:31,834 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 27132 rows after removing duplicates.
+2024-12-01 13:24:32,040 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 13:24:32,194 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 13:24:32,453 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 13:24:32,630 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 13:24:32,770 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 13:24:32,901 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 13:24:38,634 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 13:24:41,150 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+2024-12-01 14:10:55,006 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 14:10:55,476 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 14:10:55,844 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 14:10:56,198 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 14:10:56,533 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 14:10:57,044 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 14:10:57,388 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 14:10:58,015 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 14:10:58,290 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 14:10:58,488 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 14:10:58,677 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 14:10:58,965 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 28130 rows after removing duplicates.
+2024-12-01 14:10:59,124 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 14:10:59,244 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 14:10:59,471 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 14:10:59,615 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 14:10:59,741 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 14:10:59,868 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 14:23:02,362 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 14:23:02,816 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 14:23:03,175 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 14:23:03,523 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 14:23:03,813 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 14:23:04,325 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 14:23:04,677 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 14:23:05,274 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 14:23:05,479 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 14:23:05,722 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 14:23:05,905 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 14:23:06,165 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 28130 rows after removing duplicates.
+2024-12-01 14:23:06,319 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 14:23:06,443 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 14:23:06,690 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 14:23:06,840 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 14:23:06,956 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 14:23:07,099 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 14:23:12,515 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 14:23:14,804 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+2024-12-01 15:02:05,691 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:02:06,154 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:02:06,534 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:02:06,864 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:02:07,159 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:02:07,662 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:02:07,995 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:02:08,595 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 15:02:08,808 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 15:02:09,046 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 15:02:09,221 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 15:02:09,484 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 28130 rows after removing duplicates.
+2024-12-01 15:02:09,666 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 15:02:09,781 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 15:02:10,002 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 15:02:10,157 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 15:02:10,269 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 15:02:10,417 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 15:02:15,488 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 15:02:17,655 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+2024-12-01 15:02:59,509 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:03:00,061 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:03:00,503 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:03:00,950 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:03:01,362 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:03:02,031 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:03:02,592 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:03:03,582 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 15:03:03,913 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 15:03:04,276 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 15:03:04,509 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 15:03:04,877 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 28130 rows after removing duplicates.
+2024-12-01 15:03:05,140 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 15:03:05,326 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 15:03:05,670 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 15:03:05,862 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 15:03:06,053 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 15:03:06,452 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 15:03:13,533 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 15:03:16,724 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+2024-12-01 15:04:57,721 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:04:58,190 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:04:58,554 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:04:58,921 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:04:59,221 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:04:59,711 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:05:00,071 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:05:00,690 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 15:05:00,921 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 15:05:01,115 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 15:05:01,338 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 15:05:01,579 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 28130 rows after removing duplicates.
+2024-12-01 15:05:01,750 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 15:05:01,880 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 15:05:02,083 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 15:05:02,223 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 15:05:02,337 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 15:05:02,461 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 15:05:07,623 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 15:05:10,064 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+2024-12-01 15:16:13,052 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:16:13,483 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:16:13,831 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:16:14,179 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:16:14,475 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:16:14,956 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:16:15,285 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:16:15,878 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 15:16:16,084 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 15:16:16,309 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 15:16:16,486 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 15:16:16,733 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 28130 rows after removing duplicates.
+2024-12-01 15:16:16,902 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 15:16:17,013 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 15:16:17,234 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 15:16:17,366 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 15:16:17,520 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 15:16:17,639 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 15:16:22,909 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 15:16:25,019 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+2024-12-01 15:20:14,506 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:20:14,959 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:20:15,315 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:20:15,654 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:20:15,944 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:20:16,430 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:20:16,751 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:20:17,312 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 15:20:17,513 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 15:20:17,695 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 15:20:17,879 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 15:20:18,163 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 28130 rows after removing duplicates.
+2024-12-01 15:20:18,319 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 15:20:18,451 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 15:20:18,645 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 15:20:18,778 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 15:20:18,900 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 15:20:19,009 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 15:20:24,896 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 15:20:27,486 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+2024-12-01 15:22:33,167 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:22:33,584 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:22:33,925 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:22:34,267 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:22:34,578 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:22:35,086 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:22:35,433 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:22:36,084 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 15:22:36,282 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 15:22:36,520 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 15:22:36,691 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 15:22:36,952 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 28130 rows after removing duplicates.
+2024-12-01 15:22:37,113 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 15:22:37,235 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 15:22:37,442 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 15:22:37,582 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 15:22:37,699 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 15:22:37,838 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 15:23:53,622 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:23:54,005 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:23:54,394 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:23:54,731 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:23:55,043 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:23:55,489 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:23:55,851 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:23:56,426 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 15:23:56,612 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 15:23:56,799 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 15:23:56,995 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 15:23:57,251 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 28130 rows after removing duplicates.
+2024-12-01 15:23:57,408 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 15:23:57,535 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 15:23:57,750 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 15:23:57,911 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 15:23:58,025 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 15:23:58,136 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 15:24:46,536 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:24:47,152 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:24:47,548 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:24:47,890 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:24:48,183 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:24:48,685 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:24:49,025 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:24:49,645 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 15:24:49,872 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 15:24:50,109 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 15:24:50,281 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 15:24:50,534 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 28130 rows after removing duplicates.
+2024-12-01 15:24:50,696 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 15:24:50,818 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 15:24:51,015 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 15:24:51,178 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 15:24:51,328 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 15:24:51,512 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 15:25:18,027 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:25:18,495 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:25:18,859 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:25:19,189 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:25:19,521 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:25:20,071 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:25:20,417 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:25:21,070 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 15:25:21,327 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 15:25:21,526 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 15:25:21,704 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 15:25:21,978 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 28130 rows after removing duplicates.
+2024-12-01 15:25:22,137 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 15:25:22,263 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 15:25:22,473 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 15:25:22,642 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 15:25:22,761 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 15:25:22,880 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 15:28:19,697 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:28:20,162 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:28:20,601 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:28:20,988 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:28:21,313 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:28:21,860 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:28:22,278 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:28:23,062 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 15:28:23,326 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 15:28:23,646 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 15:28:23,928 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 15:28:24,330 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 28130 rows after removing duplicates.
+2024-12-01 15:28:24,543 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 15:28:24,702 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 15:28:24,985 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 15:28:25,157 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 15:28:25,295 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 15:28:25,425 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 15:28:32,931 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 15:28:36,010 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+2024-12-01 15:39:54,574 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:39:55,017 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:39:55,365 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:39:55,722 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:39:56,015 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:39:56,499 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:39:56,828 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:39:57,443 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 15:39:57,657 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 15:39:57,885 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 15:39:58,063 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 15:39:58,320 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 28130 rows after removing duplicates.
+2024-12-01 15:39:58,477 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 15:39:58,598 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 15:39:58,810 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 15:39:58,935 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 15:39:59,053 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 15:39:59,192 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 15:40:04,397 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 15:40:06,589 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+2024-12-01 15:41:20,040 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:41:20,506 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:41:20,853 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:41:21,214 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:41:21,504 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:41:21,989 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:41:22,314 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:41:22,937 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 15:41:23,144 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 15:41:23,386 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 15:41:23,575 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 15:41:23,841 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 28130 rows after removing duplicates.
+2024-12-01 15:41:24,004 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 15:41:24,127 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 15:41:24,330 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 15:41:24,464 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 15:41:24,582 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 15:41:24,734 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 15:41:29,946 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 15:41:32,074 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+2024-12-01 15:42:28,954 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:42:29,413 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:42:29,774 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:42:30,158 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:42:30,453 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:42:30,953 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:42:31,281 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:42:31,894 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 15:42:32,102 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 15:42:32,332 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 15:42:32,523 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 15:42:32,771 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 28130 rows after removing duplicates.
+2024-12-01 15:42:32,927 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 15:42:33,055 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 15:42:33,262 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 15:42:33,392 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 15:42:33,511 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 15:42:33,623 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 15:42:38,740 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 15:42:40,887 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+2024-12-01 15:44:50,702 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:44:51,121 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:44:51,470 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:44:51,831 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:44:52,131 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:44:52,594 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:44:52,954 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:44:53,604 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 15:44:53,856 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 15:44:54,051 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 15:44:54,225 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 15:44:54,472 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 28130 rows after removing duplicates.
+2024-12-01 15:44:54,634 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 15:44:54,770 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 15:44:54,967 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 15:44:55,100 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 15:44:55,220 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 15:44:55,332 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 15:45:00,351 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 15:45:02,519 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+2024-12-01 15:48:01,156 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:48:01,593 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:48:01,976 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:48:02,315 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:48:02,608 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:48:03,104 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:48:03,439 - INFO - TRANSFORMATION: Clean Duplicates | STATUS: SUCCESS | DETAILS: Removed 0 duplicate rows.
+2024-12-01 15:48:04,029 - INFO - TRANSFORMATION: Clean Data for transactions | STATUS: SUCCESS | DETAILS: Data cleaned with 2155 rows after removing duplicates.
+2024-12-01 15:48:04,235 - INFO - TRANSFORMATION: Clean Data for clients | STATUS: SUCCESS | DETAILS: Data cleaned with 91 rows after removing duplicates.
+2024-12-01 15:48:04,460 - INFO - TRANSFORMATION: Clean Data for produits | STATUS: SUCCESS | DETAILS: Data cleaned with 77 rows after removing duplicates.
+2024-12-01 15:48:04,633 - INFO - TRANSFORMATION: Clean Data for magasins | STATUS: SUCCESS | DETAILS: Data cleaned with 29 rows after removing duplicates.
+2024-12-01 15:48:04,894 - INFO - TRANSFORMATION: Clean Data for exchange | STATUS: SUCCESS | DETAILS: Data cleaned with 28130 rows after removing duplicates.
+2024-12-01 15:48:05,052 - INFO - TRANSFORMATION: Clean Data for rates | STATUS: SUCCESS | DETAILS: Data cleaned with 207 rows after removing duplicates.
+2024-12-01 15:48:05,170 - INFO - TRANSFORMATION: Clean Data for categories | STATUS: SUCCESS | DETAILS: Data cleaned with 8 rows after removing duplicates.
+2024-12-01 15:48:05,374 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 2155 rows.
+2024-12-01 15:48:05,506 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 91 rows.
+2024-12-01 15:48:05,624 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 77 rows.
+2024-12-01 15:48:05,764 - INFO - TRANSFORMATION: Enrich Data | STATUS: SUCCESS | DETAILS: Data enriched with new column 'enriched_column'. 29 rows.
+2024-12-01 15:48:10,333 - ERROR - TRANSFORMATION: Suivi des anomalies | STATUS: ERROR | DETAILS: Nombre total d'anomalies détectées : 4
+2024-12-01 15:48:12,452 - INFO - TRANSFORMATION: Ajout du statut produit | STATUS: SUCCESS | DETAILS: Statuts ajoutés pour 77 produits
+
+### Anomalies Détectées ###

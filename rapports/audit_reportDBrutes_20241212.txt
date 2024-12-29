@@ -1,0 +1,51 @@
+Rapport d'Audit des Données
+========================================
+
+Audit Report pour : transactions
+----------------------------------------
+    - 73 valeurs nulles dans la colonne 'ShippedDate' de transactions
+    - 3 valeurs nulles dans la colonne 'ShipAddress' de transactions
+    - 1299 valeurs nulles dans la colonne 'ShipRegion' de transactions
+    - 55 valeurs nulles dans la colonne 'ShipPostalCode' de transactions
+    - 3 valeurs nulles dans la colonne 'ShipCountry' de transactions
+    - Incohérence de type détectée pour la colonne 'ProductID' de transactions : attendu int, trouvé string
+    - Incohérence de type détectée pour la colonne 'UnitPrice' de transactions : attendu float, trouvé string
+    - 2 valeurs aberrantes détectées dans la colonne 'UnitPrice' de transactions
+
+========================================
+
+Audit Report pour : clients
+----------------------------------------
+    - 1 valeurs nulles dans la colonne 'CompanyName' de clients
+    - 2 valeurs nulles dans la colonne 'City' de clients
+    - 60 valeurs nulles dans la colonne 'Region' de clients
+    - 1 valeurs nulles dans la colonne 'PostalCode' de clients
+    - 22 valeurs nulles dans la colonne 'Fax' de clients
+
+========================================
+
+Audit Report pour : magasins
+----------------------------------------
+    - 1 valeurs nulles dans la colonne 'CompanyName' de magasins
+    - 20 valeurs nulles dans la colonne 'Region' de magasins
+    - 16 valeurs nulles dans la colonne 'Fax' de magasins
+    - 24 valeurs nulles dans la colonne 'HomePage' de magasins
+
+========================================
+
+Audit Report pour : produits
+----------------------------------------
+    - 2 valeurs nulles dans la colonne 'ProductName' de produits
+    - Incohérence de type détectée pour la colonne 'ProductID' de produits : attendu int, trouvé string
+    - Incohérence de type détectée pour la colonne 'UnitPrice' de produits : attendu float, trouvé string
+    - 1 valeurs aberrantes détectées dans la colonne 'UnitPrice' de produits
+
+========================================
+
+Audit Report pour : categories
+----------------------------------------
+    - 1 valeurs nulles dans la colonne 'CategoryName' de categories
+    - 1 valeurs nulles dans la colonne 'Description' de categories
+
+========================================
+

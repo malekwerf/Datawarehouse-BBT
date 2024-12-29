@@ -1,0 +1,56 @@
+2024-12-06 17:37:55,713 - INFO - Tous les fichiers CSV ont été chargés avec succès.
+2024-12-06 17:37:56,720 - INFO - Fichier transactions sauvegardé dans la couche Bronze.
+2024-12-06 17:37:58,630 - INFO - Fichier clients sauvegardé dans la couche Bronze.
+2024-12-06 17:37:59,435 - INFO - Fichier magasins sauvegardé dans la couche Bronze.
+2024-12-06 17:38:00,150 - INFO - Fichier produits sauvegardé dans la couche Bronze.
+2024-12-06 17:38:00,851 - INFO - Fichier categories sauvegardé dans la couche Bronze.
+2024-12-06 17:38:01,319 - INFO - Fichier taxes sauvegardé dans la couche Bronze.
+2024-12-06 17:38:01,969 - INFO - Fichier exchange sauvegardé dans la couche Bronze.
+2024-12-06 17:38:02,702 - INFO - Rapport d'audit généré et sauvegardé sous : rapports/audit_reportextract_20241206.txt
+2024-12-06 17:38:02,889 - INFO - Démarrage de la transformation.
+2024-12-06 17:38:03,643 - ERROR - Applied fillna with values: {'ShippedDate': '01/01/2000', 'ShipName': 'Non spécifié', 'ShipCountry': 'Non spécifié', 'OrderDate': '01/01/2000', 'ShipRegion': 'Non spécifié', 'ShipPostalCode': 'Non spécifié', 'Country': 'Non spécifié', 'CompanyName': 'Non spécifié', 'City': 'Non spécifié', 'PostalCode': 'Non spécifié', 'Fax': 'Non spécifié', 'Phone': 'Non spécifié', 'Freight': 0.0, 'UnitPrice': 0.0, 'Discount': 0.0, 'Quantity': 0, 'UnitsInStock': 0, 'ShipAddress': 'Non spécifié', 'CategoryName': 'Non spécifié'}
+2024-12-06 17:38:03,763 - ERROR - Cleaned 'ShipAddress' by removing special characters
+2024-12-06 17:38:03,827 - INFO - Cleaned and reformatted 'OrderDate'
+2024-12-06 17:38:03,828 - ERROR - Cleaned and reformatted 'OrderDate'
+2024-12-06 17:38:03,892 - INFO - Cleaned and reformatted 'ShippedDate'
+2024-12-06 17:38:03,892 - ERROR - Cleaned and reformatted 'ShippedDate'
+2024-12-06 17:38:03,954 - INFO - Cleaned and reformatted 'RequiredDate'
+2024-12-06 17:38:03,954 - ERROR - Cleaned and reformatted 'RequiredDate'
+2024-12-06 17:38:04,067 - ERROR - les données sont nettoyées 
+2024-12-06 17:38:04,067 - INFO - les données sont nettoyées
+2024-12-06 17:38:04,130 - ERROR - Applied fillna with values: {'ShippedDate': '01/01/2000', 'ShipName': 'Non spécifié', 'ShipCountry': 'Non spécifié', 'OrderDate': '01/01/2000', 'ShipRegion': 'Non spécifié', 'ShipPostalCode': 'Non spécifié', 'Country': 'Non spécifié', 'CompanyName': 'Non spécifié', 'City': 'Non spécifié', 'PostalCode': 'Non spécifié', 'Fax': 'Non spécifié', 'Phone': 'Non spécifié', 'Freight': 0.0, 'UnitPrice': 0.0, 'Discount': 0.0, 'Quantity': 0, 'UnitsInStock': 0, 'ShipAddress': 'Non spécifié', 'CategoryName': 'Non spécifié'}
+2024-12-06 17:38:04,142 - ERROR - Standardized formats in 'Phone', set invalid formats to 'Unknown'
+2024-12-06 17:38:04,157 - ERROR - Cleaned 'Country' by removing special characters
+2024-12-06 17:38:04,216 - ERROR - les données sont nettoyées 
+2024-12-06 17:38:04,216 - INFO - les données sont nettoyées
+2024-12-06 17:38:04,225 - ERROR - Applied fillna with values: {'ShippedDate': '01/01/2000', 'ShipName': 'Non spécifié', 'ShipCountry': 'Non spécifié', 'OrderDate': '01/01/2000', 'ShipRegion': 'Non spécifié', 'ShipPostalCode': 'Non spécifié', 'Country': 'Non spécifié', 'CompanyName': 'Non spécifié', 'City': 'Non spécifié', 'PostalCode': 'Non spécifié', 'Fax': 'Non spécifié', 'Phone': 'Non spécifié', 'Freight': 0.0, 'UnitPrice': 0.0, 'Discount': 0.0, 'Quantity': 0, 'UnitsInStock': 0, 'ShipAddress': 'Non spécifié', 'CategoryName': 'Non spécifié'}
+2024-12-06 17:38:04,311 - ERROR - Cleaned 'UnitsInStock' by removing non-numeric characters and setting invalid values to 0
+2024-12-06 17:38:04,358 - ERROR - les données sont nettoyées 
+2024-12-06 17:38:04,359 - INFO - les données sont nettoyées
+2024-12-06 17:38:04,411 - ERROR - Applied fillna with values: {'ShippedDate': '01/01/2000', 'ShipName': 'Non spécifié', 'ShipCountry': 'Non spécifié', 'OrderDate': '01/01/2000', 'ShipRegion': 'Non spécifié', 'ShipPostalCode': 'Non spécifié', 'Country': 'Non spécifié', 'CompanyName': 'Non spécifié', 'City': 'Non spécifié', 'PostalCode': 'Non spécifié', 'Fax': 'Non spécifié', 'Phone': 'Non spécifié', 'Freight': 0.0, 'UnitPrice': 0.0, 'Discount': 0.0, 'Quantity': 0, 'UnitsInStock': 0, 'ShipAddress': 'Non spécifié', 'CategoryName': 'Non spécifié'}
+2024-12-06 17:38:04,420 - ERROR - Standardized formats in 'Phone', set invalid formats to 'Unknown'
+2024-12-06 17:38:04,432 - ERROR - Cleaned 'Country' by removing special characters
+2024-12-06 17:38:04,504 - ERROR - les données sont nettoyées 
+2024-12-06 17:38:04,504 - INFO - les données sont nettoyées
+2024-12-06 17:38:04,509 - ERROR - Applied fillna with values: {'ShippedDate': '01/01/2000', 'ShipName': 'Non spécifié', 'ShipCountry': 'Non spécifié', 'OrderDate': '01/01/2000', 'ShipRegion': 'Non spécifié', 'ShipPostalCode': 'Non spécifié', 'Country': 'Non spécifié', 'CompanyName': 'Non spécifié', 'City': 'Non spécifié', 'PostalCode': 'Non spécifié', 'Fax': 'Non spécifié', 'Phone': 'Non spécifié', 'Freight': 0.0, 'UnitPrice': 0.0, 'Discount': 0.0, 'Quantity': 0, 'UnitsInStock': 0, 'ShipAddress': 'Non spécifié', 'CategoryName': 'Non spécifié'}
+2024-12-06 17:38:04,524 - ERROR - Cleaned 'CategoryName' by removing special characters
+2024-12-06 17:38:04,544 - ERROR - les données sont nettoyées 
+2024-12-06 17:38:04,545 - INFO - les données sont nettoyées
+2024-12-06 17:38:04,676 - INFO - code region ajouté.
+2024-12-06 17:38:04,676 - INFO - le code region est ajouté
+2024-12-06 17:38:04,978 - INFO - statut client ajouté
+2024-12-06 17:38:04,978 - ERROR - statut client ajouté
+2024-12-06 17:38:05,550 - ERROR - statut produit ajouté
+2024-12-06 17:38:05,551 - INFO - statut produits ajouté
+2024-12-06 17:38:05,656 - INFO - Les produits ont été groupés par catégorie.
+2024-12-06 17:38:05,657 - ERROR - Les produits ont été groupés par catégorie.
+2024-12-06 17:38:06,929 - ERROR - Id taxe ajouté
+2024-12-06 17:38:07,732 - ERROR - Id currency ajouté avec succées
+2024-12-06 17:38:08,302 - INFO - anomalie détécté
+2024-12-06 17:38:08,302 - ERROR - Anomalies détéctées
+2024-12-06 17:38:08,304 - INFO - Transformation appliquée : Détection et étiquetage des anomalies.
+2024-12-06 17:38:08,900 - INFO - Transformation appliquée : Introduction d'erreurs intentionnelles dans les produits.
+2024-12-06 17:38:09,518 - INFO - Transformation appliquée : Introduction d'erreurs intentionnelles dans les clients.
+2024-12-06 17:38:09,923 - INFO - Suivi de qualité terminé. Anomalies identifiées.
+2024-12-06 17:38:11,973 - ERROR - Les données transformées ont été sauvegardées dans la couche Silver.
+2024-12-06 17:38:13,630 - INFO - Closing down clientserver connection

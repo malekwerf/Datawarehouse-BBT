@@ -1,0 +1,19 @@
+2024-12-12 21:03:01.854608 - Statut client: Colonne 'Statut_client' ajoutée avec succès.
+2024-12-12 21:03:01.856098 - Normalisation: Démarrage de la normalisation des données.
+2024-12-12 21:03:02.771961 - Normalisation: Transformation effectuée sur la colonne OrderDate.
+2024-12-12 21:03:03.242335 - Normalisation: Transformation effectuée sur la colonne ShippedDate.
+2024-12-12 21:03:03.559268 - Normalisation: Transformation effectuée sur la colonne RequiredDate.
+2024-12-12 21:03:42.217922 - Ajout de la colonne ID_Taxe: Colonne 'ID_Taxe' ajoutée avec succès en fonction des taux de taxe.
+2024-12-12 21:03:42.291012 - Ajout de la colonne ID_Currency: Colonne 'ID_Currency' ajoutée avec succès en fonction du pays et de la date.
+2024-12-12 21:03:42.320607 - Normalisation: Démarrage de la normalisation des données.
+2024-12-12 21:03:42.456339 - Normalisation: Mappage de `ShipCity` ignoré (colonne manquante).
+2024-12-12 21:03:42.457341 - Attribution des régions: Début du traitement.
+2024-12-12 21:03:42.526148 - Attribution des régions: Colonne 'Code_region' ajoutée avec succès.
+2024-12-12 21:03:42.528160 - Normalisation: Démarrage de la normalisation des données.
+2024-12-12 21:03:42.573639 - Normalisation: Mappage de `ShipCity` ignoré (colonne manquante).
+2024-12-12 21:03:42.574639 - Normalisation: Démarrage de la normalisation des données.
+2024-12-12 21:03:42.662645 - Normalisation: Mappage de `ShipCity` ignoré (colonne manquante).
+2024-12-12 21:03:42.747744 - Statut produit: Colonne 'Statut_produit' ajoutée avec succès.
+2024-12-12 21:03:42.870469 - Regroupement produits par catégorie: Colonne 'ProduitsParCategorie' ajoutée avec succès.
+2024-12-12 21:03:43.019462 - Normalisation: Démarrage de la normalisation des données.
+2024-12-12 21:03:43.119460 - Normalisation: Mappage de `ShipCity` ignoré (colonne manquante).

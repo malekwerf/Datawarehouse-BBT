@@ -1,0 +1,101 @@
+=== Rapport d'Audit des Transformations ===
+Date : 2024-12-04 15:03:29
+
+Total INFO : 19
+Total ERREURS : 74
+Total AVERTISSEMENTS : 0
+
+=== Détails des Messages ===
+2024-12-04 15:03:14,707 - ERROR - Removed 0 duplicate rows
+2024-12-04 15:03:14,722 - ERROR - Dropped duplicate columns ['OrderID1'] for base name 'OrderID'
+2024-12-04 15:03:14,723 - ERROR - Finished cleaning duplicate rows and columns
+2024-12-04 15:03:15,159 - ERROR - Removed 0 duplicate rows
+2024-12-04 15:03:15,161 - ERROR - Finished cleaning duplicate rows and columns
+2024-12-04 15:03:15,535 - ERROR - Removed 0 duplicate rows
+2024-12-04 15:03:15,537 - ERROR - Finished cleaning duplicate rows and columns
+2024-12-04 15:03:15,881 - ERROR - Removed 0 duplicate rows
+2024-12-04 15:03:15,884 - ERROR - Finished cleaning duplicate rows and columns
+2024-12-04 15:03:16,191 - ERROR - Removed 0 duplicate rows
+2024-12-04 15:03:16,192 - ERROR - Finished cleaning duplicate rows and columns
+2024-12-04 15:03:16,668 - ERROR - Removed 0 duplicate rows
+2024-12-04 15:03:16,669 - ERROR - Finished cleaning duplicate rows and columns
+2024-12-04 15:03:17,038 - ERROR - Removed 0 duplicate rows
+2024-12-04 15:03:17,040 - ERROR - Finished cleaning duplicate rows and columns
+2024-12-04 15:03:17,041 - ERROR - Starting cleaning for transactions
+2024-12-04 15:03:17,149 - ERROR - Applied fillna with values: {'ShipRegion': 'Unknown', 'ShipPostalCode': 'Unknown', 'ShipCountry': 'Unknown', 'Country': 'Unknown', 'CompanyName': 'Unknown', 'City': 'Unknown', 'PostalCode': 'Unknown', 'Fax': 'Unknown', 'Phone': 'Unknown', 'CategoryName': 'Unknown', 'Freight': 0.0, 'UnitPrice': 0.0, 'Discount': 0.0, 'Quantity': 1, 'UnitsInStock': 0, 'ShipAddress': 'Unknown'}
+2024-12-04 15:03:17,186 - ERROR - Set negative values in 'Freight' to 0.0
+2024-12-04 15:03:17,212 - ERROR - Set negative values in 'UnitPrice' to 0.0
+2024-12-04 15:03:17,231 - ERROR - Cleaned 'ShipAddress' by removing special characters
+2024-12-04 15:03:17,295 - INFO - Cleaned and reformatted 'OrderDate'
+2024-12-04 15:03:17,295 - ERROR - Cleaned and reformatted 'OrderDate'
+2024-12-04 15:03:17,363 - INFO - Cleaned and reformatted 'ShippedDate'
+2024-12-04 15:03:17,363 - ERROR - Cleaned and reformatted 'ShippedDate'
+2024-12-04 15:03:17,433 - INFO - Cleaned and reformatted 'RequiredDate'
+2024-12-04 15:03:17,433 - ERROR - Cleaned and reformatted 'RequiredDate'
+2024-12-04 15:03:17,434 - INFO - Finished cleaning for transactions
+2024-12-04 15:03:17,434 - ERROR - Finished cleaning for transactions
+2024-12-04 15:03:17,434 - ERROR - Starting cleaning for clients
+2024-12-04 15:03:17,482 - ERROR - Applied fillna with values: {'ShipRegion': 'Unknown', 'ShipPostalCode': 'Unknown', 'ShipCountry': 'Unknown', 'Country': 'Unknown', 'CompanyName': 'Unknown', 'City': 'Unknown', 'PostalCode': 'Unknown', 'Fax': 'Unknown', 'Phone': 'Unknown', 'CategoryName': 'Unknown', 'Freight': 0.0, 'UnitPrice': 0.0, 'Discount': 0.0, 'Quantity': 1, 'UnitsInStock': 0, 'ShipAddress': 'Unknown'}
+2024-12-04 15:03:17,500 - ERROR - Standardized formats in 'Phone', set invalid formats to 'Unknown'
+2024-12-04 15:03:17,514 - ERROR - Cleaned 'Country' by removing special characters
+2024-12-04 15:03:17,516 - INFO - Finished cleaning for clients
+2024-12-04 15:03:17,516 - ERROR - Finished cleaning for clients
+2024-12-04 15:03:17,517 - ERROR - Starting cleaning for produits
+2024-12-04 15:03:17,530 - ERROR - Applied fillna with values: {'ShipRegion': 'Unknown', 'ShipPostalCode': 'Unknown', 'ShipCountry': 'Unknown', 'Country': 'Unknown', 'CompanyName': 'Unknown', 'City': 'Unknown', 'PostalCode': 'Unknown', 'Fax': 'Unknown', 'Phone': 'Unknown', 'CategoryName': 'Unknown', 'Freight': 0.0, 'UnitPrice': 0.0, 'Discount': 0.0, 'Quantity': 1, 'UnitsInStock': 0, 'ShipAddress': 'Unknown'}
+2024-12-04 15:03:17,542 - ERROR - Set negative values in 'UnitPrice' to 0.0
+2024-12-04 15:03:17,581 - ERROR - Cleaned 'UnitsInStock' by removing non-numeric characters and setting invalid values to 0
+2024-12-04 15:03:17,582 - INFO - Finished cleaning for produits
+2024-12-04 15:03:17,583 - ERROR - Finished cleaning for produits
+2024-12-04 15:03:17,583 - ERROR - Starting cleaning for magasins
+2024-12-04 15:03:17,628 - ERROR - Applied fillna with values: {'ShipRegion': 'Unknown', 'ShipPostalCode': 'Unknown', 'ShipCountry': 'Unknown', 'Country': 'Unknown', 'CompanyName': 'Unknown', 'City': 'Unknown', 'PostalCode': 'Unknown', 'Fax': 'Unknown', 'Phone': 'Unknown', 'CategoryName': 'Unknown', 'Freight': 0.0, 'UnitPrice': 0.0, 'Discount': 0.0, 'Quantity': 1, 'UnitsInStock': 0, 'ShipAddress': 'Unknown'}
+2024-12-04 15:03:17,641 - ERROR - Standardized formats in 'Phone', set invalid formats to 'Unknown'
+2024-12-04 15:03:17,656 - ERROR - Cleaned 'Country' by removing special characters
+2024-12-04 15:03:17,657 - INFO - Finished cleaning for magasins
+2024-12-04 15:03:17,657 - ERROR - Finished cleaning for magasins
+2024-12-04 15:03:17,657 - ERROR - Starting cleaning for exchange
+2024-12-04 15:03:17,665 - ERROR - Applied fillna with values: {'ShipRegion': 'Unknown', 'ShipPostalCode': 'Unknown', 'ShipCountry': 'Unknown', 'Country': 'Unknown', 'CompanyName': 'Unknown', 'City': 'Unknown', 'PostalCode': 'Unknown', 'Fax': 'Unknown', 'Phone': 'Unknown', 'CategoryName': 'Unknown', 'Freight': 0.0, 'UnitPrice': 0.0, 'Discount': 0.0, 'Quantity': 1, 'UnitsInStock': 0, 'ShipAddress': 'Unknown'}
+2024-12-04 15:03:17,678 - ERROR - Cleaned 'Country' by removing special characters
+2024-12-04 15:03:17,679 - INFO - Finished cleaning for exchange
+2024-12-04 15:03:17,679 - ERROR - Finished cleaning for exchange
+2024-12-04 15:03:17,680 - ERROR - Starting cleaning for rates
+2024-12-04 15:03:17,684 - ERROR - Applied fillna with values: {'ShipRegion': 'Unknown', 'ShipPostalCode': 'Unknown', 'ShipCountry': 'Unknown', 'Country': 'Unknown', 'CompanyName': 'Unknown', 'City': 'Unknown', 'PostalCode': 'Unknown', 'Fax': 'Unknown', 'Phone': 'Unknown', 'CategoryName': 'Unknown', 'Freight': 0.0, 'UnitPrice': 0.0, 'Discount': 0.0, 'Quantity': 1, 'UnitsInStock': 0, 'ShipAddress': 'Unknown'}
+2024-12-04 15:03:17,693 - ERROR - Cleaned 'Country' by removing special characters
+2024-12-04 15:03:17,694 - INFO - Finished cleaning for rates
+2024-12-04 15:03:17,694 - ERROR - Finished cleaning for rates
+2024-12-04 15:03:17,695 - ERROR - Starting cleaning for categories
+2024-12-04 15:03:17,698 - ERROR - Applied fillna with values: {'ShipRegion': 'Unknown', 'ShipPostalCode': 'Unknown', 'ShipCountry': 'Unknown', 'Country': 'Unknown', 'CompanyName': 'Unknown', 'City': 'Unknown', 'PostalCode': 'Unknown', 'Fax': 'Unknown', 'Phone': 'Unknown', 'CategoryName': 'Unknown', 'Freight': 0.0, 'UnitPrice': 0.0, 'Discount': 0.0, 'Quantity': 1, 'UnitsInStock': 0, 'ShipAddress': 'Unknown'}
+2024-12-04 15:03:17,710 - ERROR - Cleaned 'CategoryName' by removing special characters
+2024-12-04 15:03:17,711 - INFO - Finished cleaning for categories
+2024-12-04 15:03:17,711 - ERROR - Finished cleaning for categories
+2024-12-04 15:03:17,748 - INFO - Normalisation des colonnes 'Country' terminée.
+2024-12-04 15:03:17,748 - INFO - Début des jointures et des transformations.
+2024-12-04 15:03:17,803 - INFO - Filtrage des données d'exchange_df pour les pays présents dans transaction_df.
+2024-12-04 15:03:17,883 - ERROR - Calcul des taxes en cours...
+2024-12-04 15:03:17,885 - ERROR - Colonnes de transactions_df: ['OrderID', 'CustomerID', 'EmployeeID', 'OrderDate', 'RequiredDate', 'ShippedDate', 'ShipVia', 'Freight', 'ShipName', 'ShipAddress', 'ShipCity', 'ShipRegion', 'ShipPostalCode', 'ShipCountry', 'ProductID', 'UnitPrice', 'Quantity', 'Discount', 'MagasinCountry', 'id_taux', 'currency', 'ratetoeuro']
+2024-12-04 15:03:17,885 - ERROR - Colonnes de clients_df: ['CustomerID', 'CompanyName', 'ContactName', 'ContactTitle', 'Address', 'City', 'Region', 'PostalCode', 'Country', 'Phone', 'Fax']
+2024-12-04 15:03:17,886 - ERROR - Colonnes de taxe_df: ['ID_Taxe', 'Country', 'TaxeRate', 'Year']
+2024-12-04 15:03:17,886 - ERROR - Colonnes de produits_df: ['ProductID', 'ProductName', 'SupplierID', 'CategoryID', 'QuantityPerUnit', 'UnitPrice', 'UnitsInStock', 'UnitsOnOrder', 'ReorderLevel', 'Discontinued']
+2024-12-04 15:03:17,923 - ERROR - Ajout de la colonne 'Year' basée sur 'ShippedDate'
+2024-12-04 15:03:18,063 - ERROR - Affichage des données après ajout de TaxID et TaxeRate
+2024-12-04 15:03:19,411 - ERROR - Calcul du taux de taxe terminé
+2024-12-04 15:03:19,457 - ERROR - Calcul du prix après remise terminé
+2024-12-04 15:03:21,047 - ERROR - Nombre total de lignes : 2155.
+2024-12-04 15:03:21,047 - ERROR - Nombre de taux de change manquants : 2155.
+2024-12-04 15:03:21,048 - ERROR - Remplacement des taux de change manquants par 1 (valeur par défaut).
+2024-12-04 15:03:21,707 - ERROR - Nombre de devises manquantes : 2155.
+2024-12-04 15:03:21,708 - ERROR - Remplacement des devises manquantes par 'UNKNOWN'.
+2024-12-04 15:03:21,737 - ERROR - Détection des anomalies en cours...
+2024-12-04 15:03:21,833 - ERROR - Détection des anomalies terminée.
+2024-12-04 15:03:22,151 - ERROR - Ajout d'erreurs intentionnelles terminé.
+2024-12-04 15:03:23,952 - INFO - Les produits ont été groupés par catégorie.
+2024-12-04 15:03:23,952 - ERROR - Les produits ont été groupés par catégorie.
+2024-12-04 15:03:24,102 - INFO - Clients enriched and grouped by region successfully.
+2024-12-04 15:03:24,103 - ERROR - Clients enriched and grouped by region successfully.
+2024-12-04 15:03:24,189 - INFO - Enrichissement des données pour les clients terminé.
+2024-12-04 15:03:24,190 - ERROR - Enrichissement des données pour les clients terminé.
+2024-12-04 15:03:24,330 - INFO - Clients enriched and grouped by region successfully.
+2024-12-04 15:03:24,330 - ERROR - Clients enriched and grouped by region successfully.
+2024-12-04 15:03:28,851 - INFO - Les données transformées ont été sauvegardées dans la couche Silver.
+2024-12-04 15:03:28,852 - ERROR - Les données transformées ont été sauvegardées dans la couche Silver.
+2024-12-04 15:03:29,211 - INFO - Data cleaning process completed.
+2024-12-04 15:03:29,212 - ERROR - Le fichier transform.py n'a pas de fonction 'main'. Vérifiez le script.

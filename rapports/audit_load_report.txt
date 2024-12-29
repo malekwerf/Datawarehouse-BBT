@@ -1,0 +1,4 @@
+2024-12-12 21:58:31.374854 - Chargement des données: Toutes les tables silver ont été chargées avec succès.
+2024-12-12 21:58:31.656406 - Transformation des données: Dimensions créées avec succès.
+2024-12-12 21:58:33.124462 - Enregistrement: Données sauvegardées avec succès dans les fichiers gold.
+2024-12-12 21:58:34.526261 - Base de données: Données sauvegardées avec succès dans la base de données.

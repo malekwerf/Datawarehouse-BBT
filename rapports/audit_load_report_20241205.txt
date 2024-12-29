@@ -1,0 +1,68 @@
+2024-12-05 07:36:55,540 - ERROR - Inconsistency in RateKey: 1 keys are missing in the dimension table.
+2024-12-05 07:36:58,591 - INFO - *** Rapport des données traitées ***
+2024-12-05 07:36:58.591444 - *** Rapport des donnÃ©es traitÃ©es ***
+2024-12-05 07:36:58,591 - INFO - Total Clients: 91
+2024-12-05 07:36:58.591444 - Total Clients: 91
+2024-12-05 07:36:58,591 - INFO - Total Products: 77
+2024-12-05 07:36:58.591444 - Total Products: 77
+2024-12-05 07:36:58,591 - INFO - Total Stores: 29
+2024-12-05 07:36:58.591444 - Total Stores: 29
+2024-12-05 07:36:58,591 - INFO - Total Transactions: 2155
+2024-12-05 07:36:58.594821 - Total Transactions: 2155
+2024-12-05 07:37:02,074 - INFO - Processus terminé avec succès.
+2024-12-05 07:37:02.074091 - Processus terminÃ© avec succÃ¨s.
+2024-12-05 07:37:02,645 - INFO - Closing down clientserver connection
+2024-12-05 09:36:48,191 - ERROR - Inconsistency in RateKey: 1 keys are missing in the dimension table.
+2024-12-05 09:36:49,457 - INFO - *** Rapport des données traitées ***
+2024-12-05 09:36:49.457978 - *** Rapport des donnÃ©es traitÃ©es ***
+2024-12-05 09:36:49,459 - INFO - Total Clients: 91
+2024-12-05 09:36:49.459159 - Total Clients: 91
+2024-12-05 09:36:49,459 - INFO - Total Products: 77
+2024-12-05 09:36:49.459822 - Total Products: 77
+2024-12-05 09:36:49,459 - INFO - Total Stores: 29
+2024-12-05 09:36:49.460324 - Total Stores: 29
+2024-12-05 09:36:49,460 - INFO - Total Transactions: 2155
+2024-12-05 09:36:49.460824 - Total Transactions: 2155
+2024-12-05 09:36:50,048 - INFO - Closing down clientserver connection
+2024-12-05 09:37:44,146 - ERROR - Inconsistency in RateKey: 1 keys are missing in the dimension table.
+2024-12-05 09:37:47,587 - INFO - *** Rapport des données traitées ***
+2024-12-05 09:37:47.587194 - *** Rapport des donnÃ©es traitÃ©es ***
+2024-12-05 09:37:47,587 - INFO - Total Clients: 91
+2024-12-05 09:37:47.588195 - Total Clients: 91
+2024-12-05 09:37:47,588 - INFO - Total Products: 77
+2024-12-05 09:37:47.589064 - Total Products: 77
+2024-12-05 09:37:47,589 - INFO - Total Stores: 29
+2024-12-05 09:37:47.589446 - Total Stores: 29
+2024-12-05 09:37:47,589 - INFO - Total Transactions: 2155
+2024-12-05 09:37:47.589682 - Total Transactions: 2155
+2024-12-05 09:37:48,680 - INFO - Processus terminé avec succès.
+2024-12-05 09:37:48.680435 - Processus terminÃ© avec succÃ¨s.
+2024-12-05 09:37:48,963 - INFO - Closing down clientserver connection
+2024-12-05 12:50:39,615 - ERROR - Inconsistency in RateKey: 1 keys are missing in the dimension table.
+2024-12-05 12:50:42,923 - INFO - *** Rapport des données traitées ***
+2024-12-05 12:50:42.923299 - *** Rapport des donnÃ©es traitÃ©es ***
+2024-12-05 12:50:42,924 - INFO - Total Clients: 91
+2024-12-05 12:50:42.924783 - Total Clients: 91
+2024-12-05 12:50:42,925 - INFO - Total Products: 77
+2024-12-05 12:50:42.925091 - Total Products: 77
+2024-12-05 12:50:42,925 - INFO - Total Stores: 29
+2024-12-05 12:50:42.925593 - Total Stores: 29
+2024-12-05 12:50:42,925 - INFO - Total Transactions: 2155
+2024-12-05 12:50:42.925593 - Total Transactions: 2155
+2024-12-05 12:50:43,997 - INFO - Processus terminé avec succès.
+2024-12-05 12:50:43.998549 - Processus terminÃ© avec succÃ¨s.
+2024-12-05 12:50:44,147 - INFO - Closing down clientserver connection
+2024-12-05 13:46:53,454 - ERROR - Inconsistency in RateKey: 1 keys are missing in the dimension table.
+2024-12-05 13:46:56,635 - INFO - *** Rapport des données traitées ***
+2024-12-05 13:46:56.636432 - *** Rapport des donnÃ©es traitÃ©es ***
+2024-12-05 13:46:56,637 - INFO - Total Clients: 91
+2024-12-05 13:46:56.637479 - Total Clients: 91
+2024-12-05 13:46:56,637 - INFO - Total Products: 77
+2024-12-05 13:46:56.637782 - Total Products: 77
+2024-12-05 13:46:56,638 - INFO - Total Stores: 29
+2024-12-05 13:46:56.638283 - Total Stores: 29
+2024-12-05 13:46:56,638 - INFO - Total Transactions: 2155
+2024-12-05 13:46:56.638783 - Total Transactions: 2155
+2024-12-05 13:46:57,694 - INFO - Processus terminé avec succès.
+2024-12-05 13:46:57.694821 - Processus terminÃ© avec succÃ¨s.
+2024-12-05 13:46:58,027 - INFO - Closing down clientserver connection

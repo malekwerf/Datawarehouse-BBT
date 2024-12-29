@@ -1,0 +1,88 @@
+2024-12-12 21:14:32,292 - INFO - Tous les fichiers CSV ont été chargés avec succès.
+2024-12-12 21:14:33,290 - INFO - Fichier transactions sauvegardé dans la couche Bronze.
+2024-12-12 21:14:34,991 - INFO - Fichier clients sauvegardé dans la couche Bronze.
+2024-12-12 21:14:35,716 - INFO - Fichier magasins sauvegardé dans la couche Bronze.
+2024-12-12 21:14:36,386 - INFO - Fichier produits sauvegardé dans la couche Bronze.
+2024-12-12 21:14:37,003 - INFO - Fichier categories sauvegardé dans la couche Bronze.
+2024-12-12 21:14:37,479 - INFO - Fichier taxes sauvegardé dans la couche Bronze.
+2024-12-12 21:14:38,089 - INFO - Fichier exchange sauvegardé dans la couche Bronze.
+2024-12-12 21:14:38,744 - INFO - Rapport d'audit généré et sauvegardé sous : rapports/audit_reportextract_20241212.txt
+2024-12-12 21:14:39,529 - INFO - 2024-12-12 21:14:39.529065 - Rapport d'audit mis à jour pour la section Chargement des données - Détails : Toutes les tables silver ont été chargées avec succès.
+2024-12-12 21:14:39,541 - INFO - 2024-12-12 21:14:39.541069 - Colonne 'update_date' ajoutée avec la valeur par défaut (current_date).
+2024-12-12 21:14:39,606 - INFO - 2024-12-12 21:14:39.606019 - Dimension SCD2 créée avec succès.
+2024-12-12 21:14:39,614 - INFO - 2024-12-12 21:14:39.614022 - Colonne 'update_date' ajoutée avec la valeur par défaut (current_date).
+2024-12-12 21:14:39,668 - INFO - 2024-12-12 21:14:39.668169 - Dimension SCD2 créée avec succès.
+2024-12-12 21:14:39,777 - INFO - 2024-12-12 21:14:39.777993 - Transactions enrichies avec les IDs manquants.
+2024-12-12 21:14:39,839 - INFO - Closing down clientserver connection
+2024-12-12 21:15:12,901 - INFO - Tous les fichiers CSV ont été chargés avec succès.
+2024-12-12 21:15:13,892 - INFO - Fichier transactions sauvegardé dans la couche Bronze.
+2024-12-12 21:15:15,610 - INFO - Fichier clients sauvegardé dans la couche Bronze.
+2024-12-12 21:15:16,337 - INFO - Fichier magasins sauvegardé dans la couche Bronze.
+2024-12-12 21:15:16,980 - INFO - Fichier produits sauvegardé dans la couche Bronze.
+2024-12-12 21:15:17,628 - INFO - Fichier categories sauvegardé dans la couche Bronze.
+2024-12-12 21:15:18,154 - INFO - Fichier taxes sauvegardé dans la couche Bronze.
+2024-12-12 21:15:18,830 - INFO - Fichier exchange sauvegardé dans la couche Bronze.
+2024-12-12 21:15:19,519 - INFO - Rapport d'audit généré et sauvegardé sous : rapports/audit_reportextract_20241212.txt
+2024-12-12 21:15:20,355 - INFO - 2024-12-12 21:15:20.355387 - Rapport d'audit mis à jour pour la section Chargement des données - Détails : Toutes les tables silver ont été chargées avec succès.
+2024-12-12 21:15:20,368 - INFO - 2024-12-12 21:15:20.368376 - Colonne 'update_date' ajoutée avec la valeur par défaut (current_date).
+2024-12-12 21:15:20,443 - INFO - 2024-12-12 21:15:20.443517 - Dimension SCD2 créée avec succès.
+2024-12-12 21:15:20,452 - INFO - 2024-12-12 21:15:20.452768 - Colonne 'update_date' ajoutée avec la valeur par défaut (current_date).
+2024-12-12 21:15:20,511 - INFO - 2024-12-12 21:15:20.511001 - Dimension SCD2 créée avec succès.
+2024-12-12 21:15:20,628 - INFO - 2024-12-12 21:15:20.628696 - Transactions enrichies avec les IDs manquants.
+2024-12-12 21:15:22,404 - ERROR - Inconsistency in ID_Taxe: 1 keys are missing in the dimension table.
+2024-12-12 21:15:22,404 - INFO - 2024-12-12 21:15:22.404005 - Rapport d'audit mis à jour pour la section Transformation des données - Détails : Dimensions créées avec succès.
+2024-12-12 21:15:22,404 - INFO - 2024-12-12 21:15:22.404005 - Enregistrement des données au chemin : output/gold/20241212/transactions, format : parquet
+2024-12-12 21:15:22,704 - INFO - 2024-12-12 21:15:22.704795 - Les données ont été enregistrées avec succès dans : output/gold/20241212/transactions
+2024-12-12 21:15:22,704 - INFO - 2024-12-12 21:15:22.704795 - Enregistrement des données au chemin : output/gold/20241212/clients, format : parquet
+2024-12-12 21:15:22,889 - INFO - 2024-12-12 21:15:22.889492 - Les données ont été enregistrées avec succès dans : output/gold/20241212/clients
+2024-12-12 21:15:22,889 - INFO - 2024-12-12 21:15:22.889492 - Enregistrement des données au chemin : output/gold/20241212/produits, format : parquet
+2024-12-12 21:15:23,018 - INFO - 2024-12-12 21:15:23.018496 - Les données ont été enregistrées avec succès dans : output/gold/20241212/produits
+2024-12-12 21:15:23,019 - INFO - 2024-12-12 21:15:23.018496 - Enregistrement des données au chemin : output/gold/20241212/magasins, format : parquet
+2024-12-12 21:15:23,141 - INFO - 2024-12-12 21:15:23.141499 - Les données ont été enregistrées avec succès dans : output/gold/20241212/magasins
+2024-12-12 21:15:23,142 - INFO - 2024-12-12 21:15:23.142498 - Enregistrement des données au chemin : output/gold/20241212/categories, format : parquet
+2024-12-12 21:15:23,242 - INFO - 2024-12-12 21:15:23.242946 - Les données ont été enregistrées avec succès dans : output/gold/20241212/categories
+2024-12-12 21:15:23,242 - INFO - 2024-12-12 21:15:23.242946 - Enregistrement des données au chemin : output/gold/20241212/taxes, format : parquet
+2024-12-12 21:15:23,319 - INFO - 2024-12-12 21:15:23.319194 - Les données ont été enregistrées avec succès dans : output/gold/20241212/taxes
+2024-12-12 21:15:23,320 - INFO - 2024-12-12 21:15:23.320189 - Enregistrement des données au chemin : output/gold/20241212/Currency, format : parquet
+2024-12-12 21:15:23,432 - INFO - 2024-12-12 21:15:23.432621 - Les données ont été enregistrées avec succès dans : output/gold/20241212/Currency
+2024-12-12 21:15:23,433 - INFO - 2024-12-12 21:15:23.433621 - Rapport d'audit mis à jour pour la section Enregistrement - Détails : Données sauvegardées avec succès dans les fichiers gold.
+2024-12-12 21:15:23,433 - INFO - 2024-12-12 21:15:23.433621 - Rapport d'audit mis à jour pour la section Base de données - Détails : Données sauvegardées avec succès dans la base de données.
+2024-12-12 21:15:23,434 - INFO - 2024-12-12 21:15:23.434883 - Chargement terminé avec succès.
+2024-12-12 21:15:23,435 - INFO - 2024-12-12 21:15:23.435247 - Rapport d'audit sauvegardé avec succès. - Détails : Fichier : rapports/audit_load_report.txt
+2024-12-12 21:15:23,961 - INFO - Closing down clientserver connection
+2024-12-12 21:16:32,015 - INFO - Tous les fichiers CSV ont été chargés avec succès.
+2024-12-12 21:16:32,976 - INFO - Fichier transactions sauvegardé dans la couche Bronze.
+2024-12-12 21:16:34,679 - INFO - Fichier clients sauvegardé dans la couche Bronze.
+2024-12-12 21:16:35,371 - INFO - Fichier magasins sauvegardé dans la couche Bronze.
+2024-12-12 21:16:36,024 - INFO - Fichier produits sauvegardé dans la couche Bronze.
+2024-12-12 21:16:36,632 - INFO - Fichier categories sauvegardé dans la couche Bronze.
+2024-12-12 21:16:37,130 - INFO - Fichier taxes sauvegardé dans la couche Bronze.
+2024-12-12 21:16:37,755 - INFO - Fichier exchange sauvegardé dans la couche Bronze.
+2024-12-12 21:16:38,425 - INFO - Rapport d'audit généré et sauvegardé sous : rapports/audit_reportextract_20241212.txt
+2024-12-12 21:16:39,543 - INFO - 2024-12-12 21:16:39.543004 - Rapport d'audit mis à jour pour la section Chargement des données - Détails : Toutes les tables silver ont été chargées avec succès.
+2024-12-12 21:16:39,554 - INFO - 2024-12-12 21:16:39.554001 - Colonne 'update_date' ajoutée avec la valeur par défaut (current_date).
+2024-12-12 21:16:39,623 - INFO - 2024-12-12 21:16:39.623232 - Dimension SCD2 créée avec succès.
+2024-12-12 21:16:39,631 - INFO - 2024-12-12 21:16:39.631232 - Colonne 'update_date' ajoutée avec la valeur par défaut (current_date).
+2024-12-12 21:16:39,684 - INFO - 2024-12-12 21:16:39.684583 - Dimension SCD2 créée avec succès.
+2024-12-12 21:16:39,817 - INFO - 2024-12-12 21:16:39.817887 - Transactions enrichies avec les IDs manquants.
+2024-12-12 21:16:41,538 - ERROR - Inconsistency in ID_Taxe: 1 keys are missing in the dimension table.
+2024-12-12 21:16:41,538 - INFO - 2024-12-12 21:16:41.538060 - Rapport d'audit mis à jour pour la section Transformation des données - Détails : Dimensions créées avec succès.
+2024-12-12 21:16:41,538 - INFO - 2024-12-12 21:16:41.538060 - Enregistrement des données au chemin : output/gold/20241212/transactions, format : parquet
+2024-12-12 21:16:41,813 - INFO - 2024-12-12 21:16:41.813368 - Les données ont été enregistrées avec succès dans : output/gold/20241212/transactions
+2024-12-12 21:16:41,814 - INFO - 2024-12-12 21:16:41.814671 - Enregistrement des données au chemin : output/gold/20241212/clients, format : parquet
+2024-12-12 21:16:41,996 - INFO - 2024-12-12 21:16:41.996101 - Les données ont été enregistrées avec succès dans : output/gold/20241212/clients
+2024-12-12 21:16:41,996 - INFO - 2024-12-12 21:16:41.996101 - Enregistrement des données au chemin : output/gold/20241212/produits, format : parquet
+2024-12-12 21:16:42,143 - INFO - 2024-12-12 21:16:42.143655 - Les données ont été enregistrées avec succès dans : output/gold/20241212/produits
+2024-12-12 21:16:42,143 - INFO - 2024-12-12 21:16:42.143655 - Enregistrement des données au chemin : output/gold/20241212/magasins, format : parquet
+2024-12-12 21:16:42,239 - INFO - 2024-12-12 21:16:42.238003 - Les données ont été enregistrées avec succès dans : output/gold/20241212/magasins
+2024-12-12 21:16:42,239 - INFO - 2024-12-12 21:16:42.239004 - Enregistrement des données au chemin : output/gold/20241212/categories, format : parquet
+2024-12-12 21:16:42,342 - INFO - 2024-12-12 21:16:42.342631 - Les données ont été enregistrées avec succès dans : output/gold/20241212/categories
+2024-12-12 21:16:42,342 - INFO - 2024-12-12 21:16:42.342631 - Enregistrement des données au chemin : output/gold/20241212/taxes, format : parquet
+2024-12-12 21:16:42,430 - INFO - 2024-12-12 21:16:42.430239 - Les données ont été enregistrées avec succès dans : output/gold/20241212/taxes
+2024-12-12 21:16:42,431 - INFO - 2024-12-12 21:16:42.431241 - Enregistrement des données au chemin : output/gold/20241212/Currency, format : parquet
+2024-12-12 21:16:42,607 - INFO - 2024-12-12 21:16:42.607809 - Les données ont été enregistrées avec succès dans : output/gold/20241212/Currency
+2024-12-12 21:16:42,608 - INFO - 2024-12-12 21:16:42.608812 - Rapport d'audit mis à jour pour la section Enregistrement - Détails : Données sauvegardées avec succès dans les fichiers gold.
+2024-12-12 21:16:42,608 - INFO - 2024-12-12 21:16:42.608812 - Rapport d'audit mis à jour pour la section Base de données - Détails : Données sauvegardées avec succès dans la base de données.
+2024-12-12 21:16:42,608 - INFO - 2024-12-12 21:16:42.608812 - Chargement terminé avec succès.
+2024-12-12 21:16:42,610 - INFO - 2024-12-12 21:16:42.610046 - Rapport d'audit sauvegardé avec succès. - Détails : Fichier : rapports/audit_load_report.txt
+2024-12-12 21:16:43,167 - INFO - Closing down clientserver connection

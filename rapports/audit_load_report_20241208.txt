@@ -1,0 +1,14 @@
+2024-12-08 13:05:56,669 - ERROR - Inconsistency in RateKey: 1 keys are missing in the dimension table.
+2024-12-08 13:05:59,604 - INFO - *** Rapport des données traitées ***
+2024-12-08 13:05:59.606079 - *** Rapport des donnÃ©es traitÃ©es ***
+2024-12-08 13:05:59,606 - INFO - Total Clients: 91
+2024-12-08 13:05:59.606079 - Total Clients: 91
+2024-12-08 13:05:59,607 - INFO - Total Products: 77
+2024-12-08 13:05:59.607009 - Total Products: 77
+2024-12-08 13:05:59,607 - INFO - Total Stores: 29
+2024-12-08 13:05:59.607009 - Total Stores: 29
+2024-12-08 13:05:59,607 - INFO - Total Transactions: 2155
+2024-12-08 13:05:59.610527 - Total Transactions: 2155
+2024-12-08 13:05:59,612 - INFO - Processus terminé avec succès.
+2024-12-08 13:05:59.612166 - Processus terminÃ© avec succÃ¨s.
+2024-12-08 13:05:59,833 - INFO - Closing down clientserver connection

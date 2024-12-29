@@ -1,0 +1,196 @@
+Rapport d'Audit des Données
+========================================
+
+Audit Report pour : transactions
+----------------------------------------
+Valeurs nulles:
+    - OrderID: 0
+    - CustomerID: 0
+    - EmployeeID: 0
+    - OrderDate: 0
+    - RequiredDate: 0
+    - ShippedDate: 73
+    - ShipVia: 0
+    - Freight: 0
+    - ShipName: 0
+    - ShipAddress: 3
+    - ShipCity: 0
+    - ShipRegion: 1299
+    - ShipPostalCode: 55
+    - ShipCountry: 3
+    - OrderID1: 0
+    - ProductID: 0
+    - UnitPrice: 0
+    - Quantity: 0
+    - Discount: 0
+Doublons: 0
+Incohérences de types:
+    - OrderID: Incohérence de type dans 'OrderID'
+    - CustomerID: Incohérence de type dans 'CustomerID'
+    - EmployeeID: Incohérence de type dans 'EmployeeID'
+    - OrderDate: Incohérence de type dans 'OrderDate'
+    - RequiredDate: Incohérence de type dans 'RequiredDate'
+    - ShippedDate: Incohérence de type dans 'ShippedDate'
+    - ShipVia: Incohérence de type dans 'ShipVia'
+    - Freight: Incohérence de type dans 'Freight'
+    - ShipName: Incohérence de type dans 'ShipName'
+    - ShipAddress: Incohérence de type dans 'ShipAddress'
+    - ShipCity: Incohérence de type dans 'ShipCity'
+    - ShipRegion: Incohérence de type dans 'ShipRegion'
+    - ShipPostalCode: Incohérence de type dans 'ShipPostalCode'
+    - ShipCountry: Incohérence de type dans 'ShipCountry'
+    - OrderID1: Incohérence de type dans 'OrderID1'
+    - ProductID: Incohérence de type dans 'ProductID'
+    - UnitPrice: Incohérence de type dans 'UnitPrice'
+    - Quantity: Incohérence de type dans 'Quantity'
+    - Discount: Incohérence de type dans 'Discount'
+Valeurs aberrantes: Colonne cible introuvable ou non spécifiée.
+
+========================================
+
+Audit Report pour : clients
+----------------------------------------
+Valeurs nulles:
+    - CustomerID: 0
+    - CompanyName: 1
+    - ContactName: 0
+    - ContactTitle: 0
+    - Address: 0
+    - City: 2
+    - Region: 60
+    - PostalCode: 1
+    - Country: 0
+    - Phone: 0
+    - Fax: 22
+Doublons: 0
+Incohérences de types:
+    - CustomerID: Incohérence de type dans 'CustomerID'
+    - CompanyName: Incohérence de type dans 'CompanyName'
+    - ContactName: Incohérence de type dans 'ContactName'
+    - ContactTitle: Incohérence de type dans 'ContactTitle'
+    - Address: Incohérence de type dans 'Address'
+    - City: Incohérence de type dans 'City'
+    - Region: Incohérence de type dans 'Region'
+    - PostalCode: Incohérence de type dans 'PostalCode'
+    - Country: Incohérence de type dans 'Country'
+    - Phone: Incohérence de type dans 'Phone'
+    - Fax: Incohérence de type dans 'Fax'
+Valeurs aberrantes: Colonne cible introuvable ou non spécifiée.
+
+========================================
+
+Audit Report pour : magasins
+----------------------------------------
+Valeurs nulles:
+    - SupplierID: 0
+    - CompanyName: 1
+    - ContactName: 0
+    - ContactTitle: 0
+    - Address: 0
+    - City: 0
+    - Region: 20
+    - PostalCode: 0
+    - Country: 0
+    - Phone: 0
+    - Fax: 16
+    - HomePage: 24
+Doublons: 0
+Incohérences de types:
+    - SupplierID: Incohérence de type dans 'SupplierID'
+    - CompanyName: Incohérence de type dans 'CompanyName'
+    - ContactName: Incohérence de type dans 'ContactName'
+    - ContactTitle: Incohérence de type dans 'ContactTitle'
+    - Address: Incohérence de type dans 'Address'
+    - City: Incohérence de type dans 'City'
+    - Region: Incohérence de type dans 'Region'
+    - PostalCode: Incohérence de type dans 'PostalCode'
+    - Country: Incohérence de type dans 'Country'
+    - Phone: Incohérence de type dans 'Phone'
+    - Fax: Incohérence de type dans 'Fax'
+    - HomePage: Incohérence de type dans 'HomePage'
+Valeurs aberrantes: Colonne cible introuvable ou non spécifiée.
+
+========================================
+
+Audit Report pour : produits
+----------------------------------------
+Valeurs nulles:
+    - ProductID: 0
+    - ProductName: 2
+    - SupplierID: 0
+    - CategoryID: 0
+    - QuantityPerUnit: 0
+    - UnitPrice: 0
+    - UnitsInStock: 0
+    - UnitsOnOrder: 0
+    - ReorderLevel: 0
+    - Discontinued: 0
+Doublons: 0
+Incohérences de types:
+    - ProductID: Incohérence de type dans 'ProductID'
+    - ProductName: Incohérence de type dans 'ProductName'
+    - SupplierID: Incohérence de type dans 'SupplierID'
+    - CategoryID: Incohérence de type dans 'CategoryID'
+    - QuantityPerUnit: Incohérence de type dans 'QuantityPerUnit'
+    - UnitPrice: Incohérence de type dans 'UnitPrice'
+    - UnitsInStock: Incohérence de type dans 'UnitsInStock'
+    - UnitsOnOrder: Incohérence de type dans 'UnitsOnOrder'
+    - ReorderLevel: Incohérence de type dans 'ReorderLevel'
+    - Discontinued: Incohérence de type dans 'Discontinued'
+Valeurs aberrantes: Colonne cible introuvable ou non spécifiée.
+
+========================================
+
+Audit Report pour : categories
+----------------------------------------
+Valeurs nulles:
+    - CategoryID: 0
+    - CategoryName: 1
+    - Description: 1
+    - Picture: 0
+Doublons: 0
+Incohérences de types:
+    - CategoryID: Incohérence de type dans 'CategoryID'
+    - CategoryName: Incohérence de type dans 'CategoryName'
+    - Description: Incohérence de type dans 'Description'
+    - Picture: Incohérence de type dans 'Picture'
+Valeurs aberrantes: Colonne cible introuvable ou non spécifiée.
+
+========================================
+
+Audit Report pour : taxes
+----------------------------------------
+Valeurs nulles:
+    - ID_Taxe: 0
+    - Country: 0
+    - TaxeRate: 0
+    - Year: 0
+Doublons: 0
+Incohérences de types:
+    - ID_Taxe: Incohérence de type dans 'ID_Taxe'
+    - Country: Incohérence de type dans 'Country'
+    - TaxeRate: Incohérence de type dans 'TaxeRate'
+    - Year: Incohérence de type dans 'Year'
+Valeurs aberrantes: Colonne cible introuvable ou non spécifiée.
+
+========================================
+
+Audit Report pour : exchange
+----------------------------------------
+Valeurs nulles:
+    - ID_taux: 0
+    - date: 0
+    - ratetoeuro: 3
+    - Country: 0
+    - currency: 61
+Doublons: 0
+Incohérences de types:
+    - ID_taux: Incohérence de type dans 'ID_taux'
+    - date: Incohérence de type dans 'date'
+    - ratetoeuro: Incohérence de type dans 'ratetoeuro'
+    - Country: Incohérence de type dans 'Country'
+    - currency: Incohérence de type dans 'currency'
+Valeurs aberrantes: Colonne cible introuvable ou non spécifiée.
+
+========================================
+

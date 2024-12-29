@@ -1,0 +1,13 @@
+
+*** Rapport des données traitées ***
+Total Clients: 91
+Total Products: 77
+Total Stores: 29
+Total Transactions: 2155
+
+Transaction Summary:
+count: Quantity=2155, UnitPrice=2155, Discount=2155, prix_apres_remise=2155
+mean: Quantity=23.73596287703016, UnitPrice=26.156732656341696, Discount=0.05605475721565311, prix_apres_remise=584.6905554149046
+stddev: Quantity=19.065770478411892, UnitPrice=29.84170428757184, Discount=0.08366129118396017, prix_apres_remise=969.4769657960679
+min: Quantity=-25, UnitPrice=0.0, Discount=-0.15, prix_apres_remise=-375.0
+max: Quantity=130, UnitPrice=263.5, Discount=0.298, prix_apres_remise=15810.0
